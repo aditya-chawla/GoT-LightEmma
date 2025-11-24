@@ -232,12 +232,13 @@ class ModelHandler:
             # Create a chat session which is more reliable for vision tasks
             chat = model.start_chat(history=[])
             
+
             # Send the image and prompt together
             response = chat.send_message([
                 prompt,
                 image
             ])
-            
+            time.sleep(5)
             # Extract the response text
             response_text = response.text
             
