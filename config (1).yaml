@@ -1,0 +1,21 @@
+# API Keys
+api_keys:
+  openai: "your-openai-api-key"  # GPT models
+  anthropic: "your-anthropic-api-key"  # Claude models
+  gemini: "your-gemini-api-key"  # Gemini models
+  huggingface: "your-huggingface-token"  # To download models from HuggingFace
+
+model_path:
+  huggingface: "path/to/store/huggingface/models"  # directory to store downloaded models
+
+# Dataset
+data:
+  root: "path/to/nuscenes"  # Path to nuScenes dataset
+  version: "v1.0-mini"  # Dataset version (v1.0-mini, v1.0-trainval, v1.0-test)
+  results: "results"  # Local directory to store results
+
+# Prediction Parameters (do not change)
+prediction:
+  obs_len: 6  # Number of past observations (frames)
+  fut_len: 6  # Number of future predictions (frames)
+  ext_len: 2  # Extra length for calculations (frames)
