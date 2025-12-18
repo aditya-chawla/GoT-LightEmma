@@ -1,0 +1,40 @@
+{
+    "metrics": {
+        "frames_total": 26,
+        "frames_successful": 10,
+        "frames_parse_errors": 16,
+        "success_rate": 0.38461538461538464,
+        "metrics": {
+            "ADE_1s": 0.4077719579040756,
+            "ADE_2s": 1.7842121456249576,
+            "ADE_3s": 4.2319509921136795,
+            "ADE_avg": 2.141311698547571,
+            "FDE": 4.983367250167456,
+            "missRate_2": 0.7
+        },
+        "token_usage": {
+            "scene_prompt": {
+                "input": 1692.9,
+                "output": 89.9
+            },
+            "intent_prompt": {
+                "input": 2018.8,
+                "output": 93.3
+            },
+            "waypoint_prompt": {
+                "input": 2354.2,
+                "output": 76.6
+            },
+            "total": {
+                "input": 6065.9,
+                "output": 259.8
+            }
+        },
+        "time_usage": {
+            "scene_prompt": 2.4404136180877685,
+            "intent_prompt": 2.1415297031402587,
+            "waypoint_prompt": 1.9835914850234986,
+            "total": 6.5655348062515255
+        }
+    }
+}

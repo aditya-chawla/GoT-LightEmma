@@ -1,0 +1,42 @@
+scene_name     frame_index    pred_actions_str
+scene-0655          2         (9.0, 0.001), (9.2, 0.001), (9.4, 0.001), (9.6, 0.001), (9.8, 0.001), (10.0, 0.001)
+scene-0655          26        Revised actions for smoothness and feasibility:
+
+[
+  (8.800, -0.0005),
+  (9.005, -0.0005),
+  (9.210, -0.0005),
+  (9.415, -0.0005),
+  (9.620, -0.0005),
+  (9.825, -0.0005)
+]
+
+These adjustments reduce abrupt acceleration and steering changes, ensuring a gentle, steady progression along the lane with minimal curvature jerk while maintaining the current lane position.
+scene-1100          7         Revised actions for smoothness and feasibility, maintaining speed and following the curve to the right:
+
+1. (1.0, 0.04)
+2. (1.2, 0.06)
+3. (1.4, 0.08)
+4. (1.6, 0.10)
+5. (1.8, 0.12)
+6. (2.0, 0.14)
+
+These adjustments reduce abrupt speed changes and curvature jerk, ensuring steady forward progress along the curved road.
+scene-1100          12        Revised actions (tuple points) for smoothness and feasibility:
+
+[
+  (0.552, 0.11),
+  (0.852, 0.15),
+  (1.152, 0.19),
+  (1.442, 0.24),
+  (1.732, 0.29),
+  (2.012, 0.34)
+]
+
+These points suggest a gentle acceleration (+0.3) with a slight right turn (+0.05), while reducing abrupt speed spikes and maintaining smooth forward movement within bounds.
+scene-1094          6         1. (2.9, 0.0)
+2. (3.0, 0.0)
+3. (3.1, 0.0)
+4. (3.2, 0.0)
+5. (3.0, 0.0)
+6. (3.0, 0.0)

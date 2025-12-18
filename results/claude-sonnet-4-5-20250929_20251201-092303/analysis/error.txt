@@ -1,0 +1,28 @@
+scene_name     frame_index    pred_actions_str
+scene-0061          0         Looking at the scene and intent, I need to continue the moderate deceleration pattern while maintaining lane position.
+
+Given:
+- Current speed: 7.273 m/s (decelerating trend)
+- Intent: Decelerate 1-2 m/s over 3s (0.33-0.67 m/s²)
+- Past curvatures: near-straight with minimal variation
+- Need to maintain safe distance from white van ahead
+- Pedestrians and construction barriers require caution
+
+Applying smooth deceleration and minimal curvature adjustments:
+
+[(7.05, 0.001), (6.83, 0.001), (6.61, 0.000), (6.39, 0.001), (6.17, 0.001), (5.95, 0.000)]
+scene-0061          1         Looking at the scene with pedestrians crossing, construction barriers, and the white vehicle ahead, I need to ensure smooth deceleration with minimal curvature changes while maintaining safety. The critique asks for reducing speed spikes and curvature jerk while keeping forward progress feasible.
+
+Here's the revised trajectory with smoother deceleration and consistent near-zero curvature:
+
+[(6.7, 0.002), (6.4, 0.002), (6.1, 0.002), (5.8, 0.001), (5.5, 0.001), (5.2, 0.001)]
+scene-0061          4         Looking at the scenario, I need to:
+1. Decelerate heavily (5-6 m/s reduction from current ~6.3 m/s)
+2. Steer slightly right to avoid construction and position for narrowed lane
+3. Maintain smooth transitions over 3 seconds (6 timesteps at 0.5s intervals)
+
+Starting from speed 6.315 m/s, I'll apply aggressive deceleration to reach near-stop while smoothly increasing right curvature from the current 0.005.
+
+The speed reduction should be approximately 1.0 m/s per timestep initially, then tapering off as we approach stop. The curvature should increase smoothly to reflect the slight right adjustment, peaking mid-maneuver then stabilizing.
+
+[(5.3, 0.008), (4.2, 0.012), (3.0, 0.015), (1.8, 0.014), (0.9, 0.011), (0.4, 0.008)]

@@ -1,0 +1,4845 @@
+{
+    "scene_info": {
+        "name": "scene-0103",
+        "description": "Many peds right, wait for turning car, long bike rack left, cyclist",
+        "first_sample_token": "3e8750f331d7499e9b5123e9eb70f2e2",
+        "last_sample_token": "281b92269fd648d4b52d06ac06ca6d65"
+    },
+    "frames": [
+        {
+            "frame_index": 0,
+            "sample_token": "c59e60042a8643e899008da2e446acca",
+            "image_name": "n008-2018-08-01-15-16-36-0400__CAM_FRONT__1533151607012404.jpg",
+            "timestamp": 1533151607012404,
+            "camera_params": {
+                "rotation": [
+                    0.5077241387638071,
+                    -0.4973392230703816,
+                    0.49837167536166627,
+                    -0.4964832014373754
+                ],
+                "translation": [
+                    1.72200568478,
+                    0.00475453292289,
+                    1.49491291905
+                ],
+                "camera_intrinsic": [
+                    [
+                        1252.8131021185304,
+                        0.0,
+                        826.588114781398
+                    ],
+                    [
+                        0.0,
+                        1252.8131021185304,
+                        469.9846626224581
+                    ],
+                    [
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ]
+            },
+            "ego_info": {
+                "position": [
+                    624.6474690041443,
+                    1630.9464876511656
+                ],
+                "heading": -0.6766760247715584,
+                "obs_positions": [
+                    [
+                        -29.78799967883925,
+                        -2.5123181811205697
+                    ],
+                    [
+                        -25.570588796011414,
+                        -1.824536354184902
+                    ],
+                    [
+                        -21.390182490334443,
+                        -1.2403528402800426
+                    ],
+                    [
+                        -17.235198506265647,
+                        -0.7652397428787214
+                    ],
+                    [
+                        -13.076980087617475,
+                        -0.4023118809516353
+                    ],
+                    [
+                        -8.809428859130826,
+                        -0.15265648894842432
+                    ],
+                    [
+                        -4.462632637140803,
+                        -0.020115584809373033
+                    ],
+                    [
+                        0.0,
+                        0.0
+                    ]
+                ],
+                "obs_actions": [
+                    [
+                        8.442,
+                        -0.005
+                    ],
+                    [
+                        8.364,
+                        -0.006
+                    ],
+                    [
+                        8.348,
+                        -0.006
+                    ],
+                    [
+                        8.55,
+                        -0.007
+                    ],
+                    [
+                        8.698,
+                        -0.006
+                    ],
+                    [
+                        8.925,
+                        -0.006
+                    ]
+                ],
+                "gt_positions": [
+                    [
+                        4.479490110110278,
+                        -0.0780891555906309
+                    ],
+                    [
+                        8.974451723544917,
+                        -0.18851884974596445
+                    ],
+                    [
+                        13.381994392169478,
+                        -0.3183484282086333
+                    ],
+                    [
+                        17.31950815820703,
+                        -0.41821350849843064
+                    ],
+                    [
+                        20.633992228872703,
+                        -0.5010114185958141
+                    ],
+                    [
+                        22.765135777053473,
+                        -0.5598012074246146
+                    ]
+                ]
+            },
+            "inference": {
+                "scene_prompt": [
+                    "Describe ONLY what is visible in one short paragraph (vehicles, people, lanes,",
+                    "lights/signs, road, hazards). No actions."
+                ],
+                "scene_description": [
+                    "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type':",
+                    "'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZradUhjrtbcLLFCgQP'}"
+                ],
+                "intent_prompt": [
+                    "Scene: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZradUhjrtbcLLFCgQP'}",
+                    "Past speeds (0.5s): [8.442, 8.364, 8.348, 8.55, 8.698, 8.925]",
+                    "Past curvatures (0.5s): [-0.005, -0.006, -0.006, -0.007, -0.006, -0.006]",
+                    "What was the ego's prior intent (acc/dec/maint + amount; left/right/follow +",
+                    "amount)? And what should it do for the next 3s? One paragraph."
+                ],
+                "driving_intent": [
+                    "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type':",
+                    "'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZrf8LxUuzBxSL7Temi'}"
+                ],
+                "waypoint_prompt": [
+                    "Scene: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZradUhjrtbcLLFCgQP'}",
+                    "Intent: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZrf8LxUuzBxSL7Temi'}",
+                    "Past speeds: [8.442, 8.364, 8.348, 8.55, 8.698, 8.925]",
+                    "Past curvatures: [-0.005, -0.006, -0.006, -0.007, -0.006, -0.006]",
+                    "Return EXACTLY 6 (speed, curvature) tuples at 0.5s for 3s. Return ONLY a Python",
+                    "list like: [(v1,c1),(v2,c2),(v3,c3),(v4,c4),(v5,c5),(v6,c6)]"
+                ],
+                "pred_actions_str": "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'}, 'request_id': 'req_011CVfZrjRJysshvrdJC7Xq9'}"
+            },
+            "token_usage": {
+                "scene_prompt": {
+                    "input": 0,
+                    "output": 0
+                },
+                "intent_prompt": {
+                    "input": 0,
+                    "output": 0
+                },
+                "waypoint_prompt": {
+                    "input": 0,
+                    "output": 0
+                }
+            },
+            "time_usage": {
+                "scene_prompt": 2.5474517345428467,
+                "intent_prompt": 1.016233205795288,
+                "waypoint_prompt": 1.3384270668029785
+            }
+        },
+        {
+            "frame_index": 1,
+            "sample_token": "fa65a298c01f44e7a182bbf9e5fe3697",
+            "image_name": "n008-2018-08-01-15-16-36-0400__CAM_FRONT__1533151607512404.jpg",
+            "timestamp": 1533151607512404,
+            "camera_params": {
+                "rotation": [
+                    0.5077241387638071,
+                    -0.4973392230703816,
+                    0.49837167536166627,
+                    -0.4964832014373754
+                ],
+                "translation": [
+                    1.72200568478,
+                    0.00475453292289,
+                    1.49491291905
+                ],
+                "camera_intrinsic": [
+                    [
+                        1252.8131021185304,
+                        0.0,
+                        826.588114781398
+                    ],
+                    [
+                        0.0,
+                        1252.8131021185304,
+                        469.9846626224581
+                    ],
+                    [
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ]
+            },
+            "ego_info": {
+                "position": [
+                    628.0910417829991,
+                    1628.080526018567
+                ],
+                "heading": -0.6907471742397612,
+                "obs_positions": [
+                    [
+                        -30.02253033012378,
+                        -2.1690995040374457
+                    ],
+                    [
+                        -25.85075773437209,
+                        -1.5261526416940328
+                    ],
+                    [
+                        -21.70287024800749,
+                        -0.9926231076938539
+                    ],
+                    [
+                        -17.550170124138067,
+                        -0.5712221924567054
+                    ],
+                    [
+                        -13.28655419279092,
+                        -0.26154414596807385
+                    ],
+                    [
+                        -8.9420532318732,
+                        -0.06785396200997074
+                    ],
+                    [
+                        -4.48014542199208,
+                        0.015051930111022127
+                    ],
+                    [
+                        0.0,
+                        0.0
+                    ]
+                ],
+                "obs_actions": [
+                    [
+                        8.364,
+                        -0.006
+                    ],
+                    [
+                        8.348,
+                        -0.006
+                    ],
+                    [
+                        8.55,
+                        -0.007
+                    ],
+                    [
+                        8.698,
+                        -0.006
+                    ],
+                    [
+                        8.925,
+                        -0.006
+                    ],
+                    [
+                        8.96,
+                        -0.005
+                    ]
+                ],
+                "gt_positions": [
+                    [
+                        4.496070447219298,
+                        -0.047171572407958884
+                    ],
+                    [
+                        8.905003573504615,
+                        -0.11497115304003103
+                    ],
+                    [
+                        12.843532707630693,
+                        -0.15942283058528695
+                    ],
+                    [
+                        16.158853677671704,
+                        -0.1955754822076532
+                    ],
+                    [
+                        18.290613461662993,
+                        -0.2243728011882009
+                    ],
+                    [
+                        20.362270625261626,
+                        -0.24783769383960852
+                    ]
+                ]
+            },
+            "inference": {
+                "scene_prompt": [
+                    "Describe ONLY what is visible in one short paragraph (vehicles, people, lanes,",
+                    "lights/signs, road, hazards). No actions."
+                ],
+                "scene_description": [
+                    "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type':",
+                    "'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZrq7rw4KrLxiqMfLJE'}"
+                ],
+                "intent_prompt": [
+                    "Scene: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZrq7rw4KrLxiqMfLJE'}",
+                    "Past speeds (0.5s): [8.364, 8.348, 8.55, 8.698, 8.925, 8.96]",
+                    "Past curvatures (0.5s): [-0.006, -0.006, -0.007, -0.006, -0.006, -0.005]",
+                    "What was the ego's prior intent (acc/dec/maint + amount; left/right/follow +",
+                    "amount)? And what should it do for the next 3s? One paragraph."
+                ],
+                "driving_intent": [
+                    "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type':",
+                    "'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZrubjy8obZf8nKt7jP'}"
+                ],
+                "waypoint_prompt": [
+                    "Scene: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZrq7rw4KrLxiqMfLJE'}",
+                    "Intent: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZrubjy8obZf8nKt7jP'}",
+                    "Past speeds: [8.364, 8.348, 8.55, 8.698, 8.925, 8.96]",
+                    "Past curvatures: [-0.006, -0.006, -0.007, -0.006, -0.006, -0.005]",
+                    "Return EXACTLY 6 (speed, curvature) tuples at 0.5s for 3s. Return ONLY a Python",
+                    "list like: [(v1,c1),(v2,c2),(v3,c3),(v4,c4),(v5,c5),(v6,c6)]"
+                ],
+                "pred_actions_str": "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'}, 'request_id': 'req_011CVfZrzNyhfN4offWCtg9e'}"
+            },
+            "token_usage": {
+                "scene_prompt": {
+                    "input": 0,
+                    "output": 0
+                },
+                "intent_prompt": {
+                    "input": 0,
+                    "output": 0
+                },
+                "waypoint_prompt": {
+                    "input": 0,
+                    "output": 0
+                }
+            },
+            "time_usage": {
+                "scene_prompt": 0.9164860248565674,
+                "intent_prompt": 1.1294660568237305,
+                "waypoint_prompt": 1.0216588973999023
+            }
+        },
+        {
+            "frame_index": 2,
+            "sample_token": "a98fba72bde9433fb882032d18aedb2e",
+            "image_name": "n008-2018-08-01-15-16-36-0400__CAM_FRONT__1533151608012404.jpg",
+            "timestamp": 1533151608012404,
+            "camera_params": {
+                "rotation": [
+                    0.5077241387638071,
+                    -0.4973392230703816,
+                    0.49837167536166627,
+                    -0.4964832014373754
+                ],
+                "translation": [
+                    1.72200568478,
+                    0.00475453292289,
+                    1.49491291905
+                ],
+                "camera_intrinsic": [
+                    [
+                        1252.8131021185304,
+                        0.0,
+                        826.588114781398
+                    ],
+                    [
+                        0.0,
+                        1252.8131021185304,
+                        469.9846626224581
+                    ],
+                    [
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ]
+            },
+            "ego_info": {
+                "position": [
+                    631.5264252466604,
+                    1625.179661478261
+                ],
+                "heading": -0.6952163863620942,
+                "obs_positions": [
+                    [
+                        -30.33991525237324,
+                        -1.61459225971935
+                    ],
+                    [
+                        -26.19445363931861,
+                        -1.0625303267072734
+                    ],
+                    [
+                        -22.043678311908547,
+                        -0.6225743840133156
+                    ],
+                    [
+                        -17.781488973190008,
+                        -0.29384448968028565
+                    ],
+                    [
+                        -13.437897040056942,
+                        -0.08073980836594963
+                    ],
+                    [
+                        -8.976404313640526,
+                        0.0221064018701016
+                    ],
+                    [
+                        -4.496236364421383,
+                        0.027077275656069766
+                    ],
+                    [
+                        0.0,
+                        0.0
+                    ]
+                ],
+                "obs_actions": [
+                    [
+                        8.348,
+                        -0.006
+                    ],
+                    [
+                        8.55,
+                        -0.007
+                    ],
+                    [
+                        8.698,
+                        -0.006
+                    ],
+                    [
+                        8.925,
+                        -0.006
+                    ],
+                    [
+                        8.96,
+                        -0.005
+                    ],
+                    [
+                        8.993,
+                        -0.002
+                    ]
+                ],
+                "gt_positions": [
+                    [
+                        4.409192104357663,
+                        -0.04809451174468915
+                    ],
+                    [
+                        8.34788056805516,
+                        -0.07494368180154787
+                    ],
+                    [
+                        11.66333000160882,
+                        -0.09627914902680157
+                    ],
+                    [
+                        13.795197196801645,
+                        -0.1155489254586266
+                    ],
+                    [
+                        15.86693854017633,
+                        -0.1297549392812245
+                    ],
+                    [
+                        17.330825138701066,
+                        -0.1416294450061315
+                    ]
+                ]
+            },
+            "inference": {
+                "scene_prompt": [
+                    "Describe ONLY what is visible in one short paragraph (vehicles, people, lanes,",
+                    "lights/signs, road, hazards). No actions."
+                ],
+                "scene_description": [
+                    "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type':",
+                    "'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZs3bxGau6SSscpJSju'}"
+                ],
+                "intent_prompt": [
+                    "Scene: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZs3bxGau6SSscpJSju'}",
+                    "Past speeds (0.5s): [8.348, 8.55, 8.698, 8.925, 8.96, 8.993]",
+                    "Past curvatures (0.5s): [-0.006, -0.007, -0.006, -0.006, -0.005, -0.002]",
+                    "What was the ego's prior intent (acc/dec/maint + amount; left/right/follow +",
+                    "amount)? And what should it do for the next 3s? One paragraph."
+                ],
+                "driving_intent": [
+                    "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type':",
+                    "'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZs7kz3mt7dSKXCyURZ'}"
+                ],
+                "waypoint_prompt": [
+                    "Scene: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZs3bxGau6SSscpJSju'}",
+                    "Intent: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZs7kz3mt7dSKXCyURZ'}",
+                    "Past speeds: [8.348, 8.55, 8.698, 8.925, 8.96, 8.993]",
+                    "Past curvatures: [-0.006, -0.007, -0.006, -0.006, -0.005, -0.002]",
+                    "Return EXACTLY 6 (speed, curvature) tuples at 0.5s for 3s. Return ONLY a Python",
+                    "list like: [(v1,c1),(v2,c2),(v3,c3),(v4,c4),(v5,c5),(v6,c6)]"
+                ],
+                "pred_actions_str": "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'}, 'request_id': 'req_011CVfZsB3RaJMu9Zgd9z4hQ'}"
+            },
+            "token_usage": {
+                "scene_prompt": {
+                    "input": 0,
+                    "output": 0
+                },
+                "intent_prompt": {
+                    "input": 0,
+                    "output": 0
+                },
+                "waypoint_prompt": {
+                    "input": 0,
+                    "output": 0
+                }
+            },
+            "time_usage": {
+                "scene_prompt": 0.8199033737182617,
+                "intent_prompt": 0.9229152202606201,
+                "waypoint_prompt": 0.820472002029419
+            }
+        },
+        {
+            "frame_index": 3,
+            "sample_token": "b6b0d9f2f2e14a3aaa2c8aedeb1edb69",
+            "image_name": "n008-2018-08-01-15-16-36-0400__CAM_FRONT__1533151608512404.jpg",
+            "timestamp": 1533151608512404,
+            "camera_params": {
+                "rotation": [
+                    0.5077241387638071,
+                    -0.4973392230703816,
+                    0.49837167536166627,
+                    -0.4964832014373754
+                ],
+                "translation": [
+                    1.72200568478,
+                    0.00475453292289,
+                    1.49491291905
+                ],
+                "camera_intrinsic": [
+                    [
+                        1252.8131021185304,
+                        0.0,
+                        826.588114781398
+                    ],
+                    [
+                        0.0,
+                        1252.8131021185304,
+                        469.9846626224581
+                    ],
+                    [
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ]
+            },
+            "ego_info": {
+                "position": [
+                    634.881503482864,
+                    1622.3184138265988
+                ],
+                "heading": -0.6920821836073021,
+                "obs_positions": [
+                    [
+                        -30.606674872841552,
+                        -0.9185129586909095
+                    ],
+                    [
+                        -26.45454102354872,
+                        -0.49156852705541176
+                    ],
+                    [
+                        -22.191342314585967,
+                        -0.17619879101139801
+                    ],
+                    [
+                        -17.847103803294292,
+                        0.023291168101856385
+                    ],
+                    [
+                        -13.385310649639933,
+                        0.11215367329725634
+                    ],
+                    [
+                        -8.905149125555146,
+                        0.10308279092907124
+                    ],
+                    [
+                        -4.409019710423717,
+                        0.061913554938104465
+                    ],
+                    [
+                        0.0,
+                        0.0
+                    ]
+                ],
+                "obs_actions": [
+                    [
+                        8.55,
+                        -0.007
+                    ],
+                    [
+                        8.698,
+                        -0.006
+                    ],
+                    [
+                        8.925,
+                        -0.006
+                    ],
+                    [
+                        8.96,
+                        -0.005
+                    ],
+                    [
+                        8.993,
+                        -0.002
+                    ],
+                    [
+                        8.819,
+                        -0.001
+                    ]
+                ],
+                "gt_positions": [
+                    [
+                        3.9385849677931004,
+                        -0.03919366620670628
+                    ],
+                    [
+                        7.253951247583372,
+                        -0.07092030237583646
+                    ],
+                    [
+                        9.385747576589674,
+                        -0.09687167725875856
+                    ],
+                    [
+                        11.45743421992527,
+                        -0.11757086810180084
+                    ],
+                    [
+                        12.92127641136316,
+                        -0.13403342540189023
+                    ],
+                    [
+                        13.861439917785251,
+                        -0.146244038655726
+                    ]
+                ]
+            },
+            "inference": {
+                "scene_prompt": [
+                    "Describe ONLY what is visible in one short paragraph (vehicles, people, lanes,",
+                    "lights/signs, road, hazards). No actions."
+                ],
+                "scene_description": [
+                    "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type':",
+                    "'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZsFVpFVfnce8PADjQr'}"
+                ],
+                "intent_prompt": [
+                    "Scene: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZsFVpFVfnce8PADjQr'}",
+                    "Past speeds (0.5s): [8.55, 8.698, 8.925, 8.96, 8.993, 8.819]",
+                    "Past curvatures (0.5s): [-0.007, -0.006, -0.006, -0.005, -0.002, -0.001]",
+                    "What was the ego's prior intent (acc/dec/maint + amount; left/right/follow +",
+                    "amount)? And what should it do for the next 3s? One paragraph."
+                ],
+                "driving_intent": [
+                    "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type':",
+                    "'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZsKST2V9jm4URFMEJc'}"
+                ],
+                "waypoint_prompt": [
+                    "Scene: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZsFVpFVfnce8PADjQr'}",
+                    "Intent: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZsKST2V9jm4URFMEJc'}",
+                    "Past speeds: [8.55, 8.698, 8.925, 8.96, 8.993, 8.819]",
+                    "Past curvatures: [-0.007, -0.006, -0.006, -0.005, -0.002, -0.001]",
+                    "Return EXACTLY 6 (speed, curvature) tuples at 0.5s for 3s. Return ONLY a Python",
+                    "list like: [(v1,c1),(v2,c2),(v3,c3),(v4,c4),(v5,c5),(v6,c6)]"
+                ],
+                "pred_actions_str": "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'}, 'request_id': 'req_011CVfZsNK6HiVWMALGNWcah'}"
+            },
+            "token_usage": {
+                "scene_prompt": {
+                    "input": 0,
+                    "output": 0
+                },
+                "intent_prompt": {
+                    "input": 0,
+                    "output": 0
+                },
+                "waypoint_prompt": {
+                    "input": 0,
+                    "output": 0
+                }
+            },
+            "time_usage": {
+                "scene_prompt": 1.0154659748077393,
+                "intent_prompt": 0.8957037925720215,
+                "waypoint_prompt": 0.6479213237762451
+            }
+        },
+        {
+            "frame_index": 4,
+            "sample_token": "796b1988dd254f74bf2fb19ba9c5b8c6",
+            "image_name": "n008-2018-08-01-15-16-36-0400__CAM_FRONT__1533151609012404.jpg",
+            "timestamp": 1533151609012404,
+            "camera_params": {
+                "rotation": [
+                    0.5077241387638071,
+                    -0.4973392230703816,
+                    0.49837167536166627,
+                    -0.4964832014373754
+                ],
+                "translation": [
+                    1.72200568478,
+                    0.00475453292289,
+                    1.49491291905
+                ],
+                "camera_intrinsic": [
+                    [
+                        1252.8131021185304,
+                        0.0,
+                        826.588114781398
+                    ],
+                    [
+                        0.0,
+                        1252.8131021185304,
+                        469.9846626224581
+                    ],
+                    [
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ]
+            },
+            "ego_info": {
+                "position": [
+                    637.8888836006734,
+                    1619.774862663559
+                ],
+                "heading": -0.6905358262302512,
+                "obs_positions": [
+                    [
+                        -30.393789185930892,
+                        -0.4053757041269854
+                    ],
+                    [
+                        -26.130107899969076,
+                        -0.09659877128839689
+                    ],
+                    [
+                        -21.785566100046864,
+                        0.09617320672026253
+                    ],
+                    [
+                        -17.323640867822803,
+                        0.17813608166242112
+                    ],
+                    [
+                        -12.843498727085692,
+                        0.16213728207736455
+                    ],
+                    [
+                        -8.34743834989945,
+                        0.11401547519037258
+                    ],
+                    [
+                        -3.938519651389507,
+                        0.04528407683917024
+                    ],
+                    [
+                        0.0,
+                        0.0
+                    ]
+                ],
+                "obs_actions": [
+                    [
+                        8.698,
+                        -0.006
+                    ],
+                    [
+                        8.925,
+                        -0.006
+                    ],
+                    [
+                        8.96,
+                        -0.005
+                    ],
+                    [
+                        8.993,
+                        -0.002
+                    ],
+                    [
+                        8.819,
+                        -0.001
+                    ],
+                    [
+                        7.878,
+                        0.001
+                    ]
+                ],
+                "gt_positions": [
+                    [
+                        3.315313255205762,
+                        -0.036853337297620525
+                    ],
+                    [
+                        5.447066905330349,
+                        -0.06610119881875631
+                    ],
+                    [
+                        7.5187190634022905,
+                        -0.09000393156075193
+                    ],
+                    [
+                        8.982534047668553,
+                        -0.1087300914474687
+                    ],
+                    [
+                        9.922677548057084,
+                        -0.1223945182965549
+                    ],
+                    [
+                        10.673297855975754,
+                        -0.1356007965920858
+                    ]
+                ]
+            },
+            "inference": {
+                "scene_prompt": [
+                    "Describe ONLY what is visible in one short paragraph (vehicles, people, lanes,",
+                    "lights/signs, road, hazards). No actions."
+                ],
+                "scene_description": [
+                    "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type':",
+                    "'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZsRqvAqMpCF1LRXVu6'}"
+                ],
+                "intent_prompt": [
+                    "Scene: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZsRqvAqMpCF1LRXVu6'}",
+                    "Past speeds (0.5s): [8.698, 8.925, 8.96, 8.993, 8.819, 7.878]",
+                    "Past curvatures (0.5s): [-0.006, -0.006, -0.005, -0.002, -0.001, 0.001]",
+                    "What was the ego's prior intent (acc/dec/maint + amount; left/right/follow +",
+                    "amount)? And what should it do for the next 3s? One paragraph."
+                ],
+                "driving_intent": [
+                    "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type':",
+                    "'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZsV6NvvZeHeBFVhKtK'}"
+                ],
+                "waypoint_prompt": [
+                    "Scene: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZsRqvAqMpCF1LRXVu6'}",
+                    "Intent: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZsV6NvvZeHeBFVhKtK'}",
+                    "Past speeds: [8.698, 8.925, 8.96, 8.993, 8.819, 7.878]",
+                    "Past curvatures: [-0.006, -0.006, -0.005, -0.002, -0.001, 0.001]",
+                    "Return EXACTLY 6 (speed, curvature) tuples at 0.5s for 3s. Return ONLY a Python",
+                    "list like: [(v1,c1),(v2,c2),(v3,c3),(v4,c4),(v5,c5),(v6,c6)]"
+                ],
+                "pred_actions_str": "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'}, 'request_id': 'req_011CVfZsXoquw5rDVGRoBhoL'}"
+            },
+            "token_usage": {
+                "scene_prompt": {
+                    "input": 0,
+                    "output": 0
+                },
+                "intent_prompt": {
+                    "input": 0,
+                    "output": 0
+                },
+                "waypoint_prompt": {
+                    "input": 0,
+                    "output": 0
+                }
+            },
+            "time_usage": {
+                "scene_prompt": 0.8275136947631836,
+                "intent_prompt": 0.7482216358184814,
+                "waypoint_prompt": 0.681077241897583
+            }
+        },
+        {
+            "frame_index": 5,
+            "sample_token": "0d0700a2284e477db876c3ee1d864668",
+            "image_name": "n008-2018-08-01-15-16-36-0400__CAM_FRONT__1533151609512404.jpg",
+            "timestamp": 1533151609512404,
+            "camera_params": {
+                "rotation": [
+                    0.5077241387638071,
+                    -0.4973392230703816,
+                    0.49837167536166627,
+                    -0.4964832014373754
+                ],
+                "translation": [
+                    1.72200568478,
+                    0.00475453292289,
+                    1.49491291905
+                ],
+                "camera_intrinsic": [
+                    [
+                        1252.8131021185304,
+                        0.0,
+                        826.588114781398
+                    ],
+                    [
+                        0.0,
+                        1252.8131021185304,
+                        469.9846626224581
+                    ],
+                    [
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ]
+            },
+            "ego_info": {
+                "position": [
+                    640.4212008594247,
+                    1617.6347623272095
+                ],
+                "heading": -0.6925048814922471,
+                "obs_positions": [
+                    [
+                        -29.44524643062937,
+                        -0.11772494216999085
+                    ],
+                    [
+                        -25.101092631419117,
+                        0.08360129949721262
+                    ],
+                    [
+                        -20.639337438358737,
+                        0.1743497872268751
+                    ],
+                    [
+                        -16.15917248027434,
+                        0.16717266041310097
+                    ],
+                    [
+                        -11.663026064664038,
+                        0.12790393243767983
+                    ],
+                    [
+                        -7.253980577399868,
+                        0.0678540662815088
+                    ],
+                    [
+                        -3.315379394387831,
+                        0.03032523506222251
+                    ],
+                    [
+                        0.0,
+                        0.0
+                    ]
+                ],
+                "obs_actions": [
+                    [
+                        8.925,
+                        -0.006
+                    ],
+                    [
+                        8.96,
+                        -0.005
+                    ],
+                    [
+                        8.993,
+                        -0.002
+                    ],
+                    [
+                        8.819,
+                        -0.001
+                    ],
+                    [
+                        7.878,
+                        0.001
+                    ],
+                    [
+                        6.631,
+                        0.0
+                    ]
+                ],
+                "gt_positions": [
+                    [
+                        2.131807108149495,
+                        -0.02505026679194078
+                    ],
+                    [
+                        4.203502315911269,
+                        -0.044873758249455165
+                    ],
+                    [
+                        5.667351335262199,
+                        -0.06071755109904586
+                    ],
+                    [
+                        6.607519919093383,
+                        -0.07253075814819177
+                    ],
+                    [
+                        7.358164775742979,
+                        -0.08425899893019961
+                    ],
+                    [
+                        8.197563900962866,
+                        -0.09883787521548992
+                    ]
+                ]
+            },
+            "inference": {
+                "scene_prompt": [
+                    "Describe ONLY what is visible in one short paragraph (vehicles, people, lanes,",
+                    "lights/signs, road, hazards). No actions."
+                ],
+                "scene_description": [
+                    "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type':",
+                    "'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZsbcHrMB4JviyqwWUG'}"
+                ],
+                "intent_prompt": [
+                    "Scene: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZsbcHrMB4JviyqwWUG'}",
+                    "Past speeds (0.5s): [8.925, 8.96, 8.993, 8.819, 7.878, 6.631]",
+                    "Past curvatures (0.5s): [-0.006, -0.005, -0.002, -0.001, 0.001, 0.0]",
+                    "What was the ego's prior intent (acc/dec/maint + amount; left/right/follow +",
+                    "amount)? And what should it do for the next 3s? One paragraph."
+                ],
+                "driving_intent": [
+                    "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type':",
+                    "'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZsfjb4JtCkqmj1MtMz'}"
+                ],
+                "waypoint_prompt": [
+                    "Scene: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZsbcHrMB4JviyqwWUG'}",
+                    "Intent: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZsfjb4JtCkqmj1MtMz'}",
+                    "Past speeds: [8.925, 8.96, 8.993, 8.819, 7.878, 6.631]",
+                    "Past curvatures: [-0.006, -0.005, -0.002, -0.001, 0.001, 0.0]",
+                    "Return EXACTLY 6 (speed, curvature) tuples at 0.5s for 3s. Return ONLY a Python",
+                    "list like: [(v1,c1),(v2,c2),(v3,c3),(v4,c4),(v5,c5),(v6,c6)]"
+                ],
+                "pred_actions_str": "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'}, 'request_id': 'req_011CVfZsmBki7pQkHLDhaqyH'}"
+            },
+            "token_usage": {
+                "scene_prompt": {
+                    "input": 0,
+                    "output": 0
+                },
+                "intent_prompt": {
+                    "input": 0,
+                    "output": 0
+                },
+                "waypoint_prompt": {
+                    "input": 0,
+                    "output": 0
+                }
+            },
+            "time_usage": {
+                "scene_prompt": 0.8358392715454102,
+                "intent_prompt": 0.9925539493560791,
+                "waypoint_prompt": 1.264618158340454
+            }
+        },
+        {
+            "frame_index": 6,
+            "sample_token": "de7593d76648450e947ba0c203dee1b0",
+            "image_name": "n008-2018-08-01-15-16-36-0400__CAM_FRONT__1533151609912404.jpg",
+            "timestamp": 1533151609912404,
+            "camera_params": {
+                "rotation": [
+                    0.5077241387638071,
+                    -0.4973392230703816,
+                    0.49837167536166627,
+                    -0.4964832014373754
+                ],
+                "translation": [
+                    1.72200568478,
+                    0.00475453292289,
+                    1.49491291905
+                ],
+                "camera_intrinsic": [
+                    [
+                        1252.8131021185304,
+                        0.0,
+                        826.588114781398
+                    ],
+                    [
+                        0.0,
+                        1252.8131021185304,
+                        469.9846626224581
+                    ],
+                    [
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ]
+            },
+            "ego_info": {
+                "position": [
+                    642.0459506112852,
+                    1616.2543937872708
+                ],
+                "heading": -0.6942202304188834,
+                "obs_positions": [
+                    [
+                        -27.233046049493804,
+                        0.06193750401102882
+                    ],
+                    [
+                        -22.77145308585968,
+                        0.1603393214585953
+                    ],
+                    [
+                        -18.291282407770765,
+                        0.16084724758711744
+                    ],
+                    [
+                        -13.79507524740142,
+                        0.12929103353006344
+                    ],
+                    [
+                        -9.385933240348807,
+                        0.0768043034550141
+                    ],
+                    [
+                        -5.447273476839837,
+                        0.046031599447067695
+                    ],
+                    [
+                        -2.131846941739441,
+                        0.021393438696266864
+                    ],
+                    [
+                        0.0,
+                        0.0
+                    ]
+                ],
+                "obs_actions": [
+                    [
+                        8.96,
+                        -0.005
+                    ],
+                    [
+                        8.993,
+                        -0.002
+                    ],
+                    [
+                        8.819,
+                        -0.001
+                    ],
+                    [
+                        7.878,
+                        0.001
+                    ],
+                    [
+                        6.631,
+                        0.0
+                    ],
+                    [
+                        5.33,
+                        -0.001
+                    ]
+                ],
+                "gt_positions": [
+                    [
+                        2.0717261640499234,
+                        -0.016269783884769184
+                    ],
+                    [
+                        3.5356002073903765,
+                        -0.02960254281211183
+                    ],
+                    [
+                        4.475787671797658,
+                        -0.03980301610129233
+                    ],
+                    [
+                        5.2264515421059485,
+                        -0.05024362241090152
+                    ],
+                    [
+                        6.065874440240461,
+                        -0.06338261556524216
+                    ],
+                    [
+                        6.981441528667306,
+                        -0.07814301392086787
+                    ]
+                ]
+            },
+            "inference": {
+                "scene_prompt": [
+                    "Describe ONLY what is visible in one short paragraph (vehicles, people, lanes,",
+                    "lights/signs, road, hazards). No actions."
+                ],
+                "scene_description": [
+                    "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type':",
+                    "'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZspRid4WgZ5Cy1iPmm'}"
+                ],
+                "intent_prompt": [
+                    "Scene: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZspRid4WgZ5Cy1iPmm'}",
+                    "Past speeds (0.5s): [8.96, 8.993, 8.819, 7.878, 6.631, 5.33]",
+                    "Past curvatures (0.5s): [-0.005, -0.002, -0.001, 0.001, 0.0, -0.001]",
+                    "What was the ego's prior intent (acc/dec/maint + amount; left/right/follow +",
+                    "amount)? And what should it do for the next 3s? One paragraph."
+                ],
+                "driving_intent": [
+                    "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type':",
+                    "'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZsu7kHS4N1S6DCyMG7'}"
+                ],
+                "waypoint_prompt": [
+                    "Scene: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZspRid4WgZ5Cy1iPmm'}",
+                    "Intent: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZsu7kHS4N1S6DCyMG7'}",
+                    "Past speeds: [8.96, 8.993, 8.819, 7.878, 6.631, 5.33]",
+                    "Past curvatures: [-0.005, -0.002, -0.001, 0.001, 0.0, -0.001]",
+                    "Return EXACTLY 6 (speed, curvature) tuples at 0.5s for 3s. Return ONLY a Python",
+                    "list like: [(v1,c1),(v2,c2),(v3,c3),(v4,c4),(v5,c5),(v6,c6)]"
+                ],
+                "pred_actions_str": "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'}, 'request_id': 'req_011CVfZsyEYgjqEugTR3YpBn'}"
+            },
+            "token_usage": {
+                "scene_prompt": {
+                    "input": 0,
+                    "output": 0
+                },
+                "intent_prompt": {
+                    "input": 0,
+                    "output": 0
+                },
+                "waypoint_prompt": {
+                    "input": 0,
+                    "output": 0
+                }
+            },
+            "time_usage": {
+                "scene_prompt": 0.7882251739501953,
+                "intent_prompt": 1.1199171543121338,
+                "waypoint_prompt": 0.9338977336883545
+            }
+        },
+        {
+            "frame_index": 7,
+            "sample_token": "f753d3f87e5b40af87ff2cbf7c8e7082",
+            "image_name": "n008-2018-08-01-15-16-36-0400__CAM_FRONT__1533151610412404.jpg",
+            "timestamp": 1533151610412404,
+            "camera_params": {
+                "rotation": [
+                    0.5077241387638071,
+                    -0.4973392230703816,
+                    0.49837167536166627,
+                    -0.4964832014373754
+                ],
+                "translation": [
+                    1.72200568478,
+                    0.00475453292289,
+                    1.49491291905
+                ],
+                "camera_intrinsic": [
+                    [
+                        1252.8131021185304,
+                        0.0,
+                        826.588114781398
+                    ],
+                    [
+                        0.0,
+                        1252.8131021185304,
+                        469.9846626224581
+                    ],
+                    [
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ]
+            },
+            "ego_info": {
+                "position": [
+                    643.6277724141914,
+                    1614.9164274990083
+                ],
+                "heading": -0.6938970678123665,
+                "obs_positions": [
+                    [
+                        -24.843120879214627,
+                        0.18463748254218615
+                    ],
+                    [
+                        -20.36295027092421,
+                        0.1836975850354161
+                    ],
+                    [
+                        -15.866753543121682,
+                        0.15068836662603946
+                    ],
+                    [
+                        -11.457628728049592,
+                        0.0967767694929913
+                    ],
+                    [
+                        -7.518979114792819,
+                        0.0647312395586992
+                    ],
+                    [
+                        -4.203560714946274,
+                        0.0390216582322811
+                    ],
+                    [
+                        -2.07172079808485,
+                        0.01693928745071971
+                    ],
+                    [
+                        0.0,
+                        0.0
+                    ]
+                ],
+                "obs_actions": [
+                    [
+                        8.993,
+                        -0.002
+                    ],
+                    [
+                        8.819,
+                        -0.001
+                    ],
+                    [
+                        7.878,
+                        0.001
+                    ],
+                    [
+                        6.631,
+                        0.0
+                    ],
+                    [
+                        5.33,
+                        -0.001
+                    ],
+                    [
+                        4.144,
+                        0.001
+                    ]
+                ],
+                "gt_positions": [
+                    [
+                        1.463869658252239,
+                        -0.013805827574369545
+                    ],
+                    [
+                        2.404053777154241,
+                        -0.024310133757235564
+                    ],
+                    [
+                        3.1547142342516,
+                        -0.03499332601039162
+                    ],
+                    [
+                        3.9941328425227365,
+                        -0.048403588565662625
+                    ],
+                    [
+                        4.90969511313266,
+                        -0.06345986319213104
+                    ],
+                    [
+                        5.938659631969548,
+                        -0.07995683740846715
+                    ]
+                ]
+            },
+            "inference": {
+                "scene_prompt": [
+                    "Describe ONLY what is visible in one short paragraph (vehicles, people, lanes,",
+                    "lights/signs, road, hazards). No actions."
+                ],
+                "scene_description": [
+                    "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type':",
+                    "'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZt2kdgZqBGLyTszP6B'}"
+                ],
+                "intent_prompt": [
+                    "Scene: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZt2kdgZqBGLyTszP6B'}",
+                    "Past speeds (0.5s): [8.993, 8.819, 7.878, 6.631, 5.33, 4.144]",
+                    "Past curvatures (0.5s): [-0.002, -0.001, 0.001, 0.0, -0.001, 0.001]",
+                    "What was the ego's prior intent (acc/dec/maint + amount; left/right/follow +",
+                    "amount)? And what should it do for the next 3s? One paragraph."
+                ],
+                "driving_intent": [
+                    "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type':",
+                    "'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZt6tvTcLQ4LDiTWsCY'}"
+                ],
+                "waypoint_prompt": [
+                    "Scene: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZt2kdgZqBGLyTszP6B'}",
+                    "Intent: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZt6tvTcLQ4LDiTWsCY'}",
+                    "Past speeds: [8.993, 8.819, 7.878, 6.631, 5.33, 4.144]",
+                    "Past curvatures: [-0.002, -0.001, 0.001, 0.0, -0.001, 0.001]",
+                    "Return EXACTLY 6 (speed, curvature) tuples at 0.5s for 3s. Return ONLY a Python",
+                    "list like: [(v1,c1),(v2,c2),(v3,c3),(v4,c4),(v5,c5),(v6,c6)]"
+                ],
+                "pred_actions_str": "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'}, 'request_id': 'req_011CVfZtAnppjg5fZm5fF3t4'}"
+            },
+            "token_usage": {
+                "scene_prompt": {
+                    "input": 0,
+                    "output": 0
+                },
+                "intent_prompt": {
+                    "input": 0,
+                    "output": 0
+                },
+                "waypoint_prompt": {
+                    "input": 0,
+                    "output": 0
+                }
+            },
+            "time_usage": {
+                "scene_prompt": 0.8170549869537354,
+                "intent_prompt": 1.02555513381958,
+                "waypoint_prompt": 0.9072434902191162
+            }
+        },
+        {
+            "frame_index": 8,
+            "sample_token": "b22fa0b3c34f47b6a360b60f35d5d567",
+            "image_name": "n008-2018-08-01-15-16-36-0400__CAM_FRONT__1533151610912404.jpg",
+            "timestamp": 1533151610912404,
+            "camera_params": {
+                "rotation": [
+                    0.5077241387638071,
+                    -0.4973392230703816,
+                    0.49837167536166627,
+                    -0.4964832014373754
+                ],
+                "translation": [
+                    1.72200568478,
+                    0.00475453292289,
+                    1.49491291905
+                ],
+                "camera_intrinsic": [
+                    [
+                        1252.8131021185304,
+                        0.0,
+                        826.588114781398
+                    ],
+                    [
+                        0.0,
+                        1252.8131021185304,
+                        469.9846626224581
+                    ],
+                    [
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ]
+            },
+            "ego_info": {
+                "position": [
+                    644.7443068232269,
+                    1613.9696139531259
+                ],
+                "heading": -0.6934540366849665,
+                "obs_positions": [
+                    [
+                        -21.82673028697301,
+                        0.2071733535515854
+                    ],
+                    [
+                        -17.3305486245303,
+                        0.17217218334150886
+                    ],
+                    [
+                        -12.921448126677051,
+                        0.116307212025486
+                    ],
+                    [
+                        -8.982813097119397,
+                        0.08251674091457506
+                    ],
+                    [
+                        -5.667406412786769,
+                        0.05533832860781329
+                    ],
+                    [
+                        -3.5355764883177683,
+                        0.03231148858247135
+                    ],
+                    [
+                        -1.4638633981794218,
+                        0.014454366023335719
+                    ],
+                    [
+                        0.0,
+                        0.0
+                    ]
+                ],
+                "obs_actions": [
+                    [
+                        8.819,
+                        -0.001
+                    ],
+                    [
+                        7.878,
+                        0.001
+                    ],
+                    [
+                        6.631,
+                        0.0
+                    ],
+                    [
+                        5.33,
+                        -0.001
+                    ],
+                    [
+                        4.144,
+                        0.001
+                    ],
+                    [
+                        2.928,
+                        -0.001
+                    ]
+                ],
+                "gt_positions": [
+                    [
+                        0.9401793728994836,
+                        -0.01092083596852611
+                    ],
+                    [
+                        1.6908350233417566,
+                        -0.02193659311097529
+                    ],
+                    [
+                        2.530247608070244,
+                        -0.035718742910403556
+                    ],
+                    [
+                        3.4458031184303493,
+                        -0.05118063863095901
+                    ],
+                    [
+                        4.474760227613574,
+                        -0.0681334745242328
+                    ],
+                    [
+                        5.8374489625962624,
+                        -0.08157047108191984
+                    ]
+                ]
+            },
+            "inference": {
+                "scene_prompt": [
+                    "Describe ONLY what is visible in one short paragraph (vehicles, people, lanes,",
+                    "lights/signs, road, hazards). No actions."
+                ],
+                "scene_description": [
+                    "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type':",
+                    "'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZtEM9DwDgpSyUyrRLq'}"
+                ],
+                "intent_prompt": [
+                    "Scene: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZtEM9DwDgpSyUyrRLq'}",
+                    "Past speeds (0.5s): [8.819, 7.878, 6.631, 5.33, 4.144, 2.928]",
+                    "Past curvatures (0.5s): [-0.001, 0.001, 0.0, -0.001, 0.001, -0.001]",
+                    "What was the ego's prior intent (acc/dec/maint + amount; left/right/follow +",
+                    "amount)? And what should it do for the next 3s? One paragraph."
+                ],
+                "driving_intent": [
+                    "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type':",
+                    "'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZtHh49K4diH1owDoAr'}"
+                ],
+                "waypoint_prompt": [
+                    "Scene: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZtEM9DwDgpSyUyrRLq'}",
+                    "Intent: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZtHh49K4diH1owDoAr'}",
+                    "Past speeds: [8.819, 7.878, 6.631, 5.33, 4.144, 2.928]",
+                    "Past curvatures: [-0.001, 0.001, 0.0, -0.001, 0.001, -0.001]",
+                    "Return EXACTLY 6 (speed, curvature) tuples at 0.5s for 3s. Return ONLY a Python",
+                    "list like: [(v1,c1),(v2,c2),(v3,c3),(v4,c4),(v5,c5),(v6,c6)]"
+                ],
+                "pred_actions_str": "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'}, 'request_id': 'req_011CVfZtLaSSMsqh6Nt5aLm6'}"
+            },
+            "token_usage": {
+                "scene_prompt": {
+                    "input": 0,
+                    "output": 0
+                },
+                "intent_prompt": {
+                    "input": 0,
+                    "output": 0
+                },
+                "waypoint_prompt": {
+                    "input": 0,
+                    "output": 0
+                }
+            },
+            "time_usage": {
+                "scene_prompt": 0.8332536220550537,
+                "intent_prompt": 0.7058463096618652,
+                "waypoint_prompt": 0.7277727127075195
+            }
+        },
+        {
+            "frame_index": 9,
+            "sample_token": "0a0d6b8c2e884134a3b48df43d54c36a",
+            "image_name": "n008-2018-08-01-15-16-36-0400__CAM_FRONT__1533151611412404.jpg",
+            "timestamp": 1533151611412404,
+            "camera_params": {
+                "rotation": [
+                    0.5077241387638071,
+                    -0.4973392230703816,
+                    0.49837167536166627,
+                    -0.4964832014373754
+                ],
+                "translation": [
+                    1.72200568478,
+                    0.00475453292289,
+                    1.49491291905
+                ],
+                "camera_intrinsic": [
+                    [
+                        1252.8131021185304,
+                        0.0,
+                        826.588114781398
+                    ],
+                    [
+                        0.0,
+                        1252.8131021185304,
+                        469.9846626224581
+                    ],
+                    [
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ]
+            },
+            "ego_info": {
+                "position": [
+                    645.4603644280983,
+                    1613.3602552538446
+                ],
+                "heading": -0.6930614173663641,
+                "obs_positions": [
+                    [
+                        -18.27065470335945,
+                        0.1902664457905736
+                    ],
+                    [
+                        -13.861576479003872,
+                        0.1326703807916969
+                    ],
+                    [
+                        -9.922955019807773,
+                        0.0973335281233858
+                    ],
+                    [
+                        -6.607559261779439,
+                        0.06885342523154936
+                    ],
+                    [
+                        -4.47573854240316,
+                        0.044989589390182605
+                    ],
+                    [
+                        -2.4040326229931366,
+                        0.026319073646491775
+                    ],
+                    [
+                        -0.9401750127041264,
+                        0.011289967702071413
+                    ],
+                    [
+                        0.0,
+                        0.0
+                    ]
+                ],
+                "obs_actions": [
+                    [
+                        7.878,
+                        0.001
+                    ],
+                    [
+                        6.631,
+                        0.0
+                    ],
+                    [
+                        5.33,
+                        -0.001
+                    ],
+                    [
+                        4.144,
+                        0.001
+                    ],
+                    [
+                        2.928,
+                        -0.001
+                    ],
+                    [
+                        1.88,
+                        -0.001
+                    ]
+                ],
+                "gt_positions": [
+                    [
+                        0.750651267586564,
+                        -0.01131047819582004
+                    ],
+                    [
+                        1.5900583764792326,
+                        -0.025422196521564633
+                    ],
+                    [
+                        2.5056077456341246,
+                        -0.0412435558217803
+                    ],
+                    [
+                        3.5345581194998115,
+                        -0.05860037883711411
+                    ],
+                    [
+                        4.897241473829018,
+                        -0.07257239226799639
+                    ],
+                    [
+                        6.279937627944703,
+                        -0.08612230155992595
+                    ]
+                ]
+            },
+            "inference": {
+                "scene_prompt": [
+                    "Describe ONLY what is visible in one short paragraph (vehicles, people, lanes,",
+                    "lights/signs, road, hazards). No actions."
+                ],
+                "scene_description": [
+                    "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type':",
+                    "'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZtPzKojHboT6CM6bb8'}"
+                ],
+                "intent_prompt": [
+                    "Scene: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZtPzKojHboT6CM6bb8'}",
+                    "Past speeds (0.5s): [7.878, 6.631, 5.33, 4.144, 2.928, 1.88]",
+                    "Past curvatures (0.5s): [0.001, 0.0, -0.001, 0.001, -0.001, -0.001]",
+                    "What was the ego's prior intent (acc/dec/maint + amount; left/right/follow +",
+                    "amount)? And what should it do for the next 3s? One paragraph."
+                ],
+                "driving_intent": [
+                    "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type':",
+                    "'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZtTWQZHr1q3jZ7WA4u'}"
+                ],
+                "waypoint_prompt": [
+                    "Scene: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZtPzKojHboT6CM6bb8'}",
+                    "Intent: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZtTWQZHr1q3jZ7WA4u'}",
+                    "Past speeds: [7.878, 6.631, 5.33, 4.144, 2.928, 1.88]",
+                    "Past curvatures: [0.001, 0.0, -0.001, 0.001, -0.001, -0.001]",
+                    "Return EXACTLY 6 (speed, curvature) tuples at 0.5s for 3s. Return ONLY a Python",
+                    "list like: [(v1,c1),(v2,c2),(v3,c3),(v4,c4),(v5,c5),(v6,c6)]"
+                ],
+                "pred_actions_str": "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'}, 'request_id': 'req_011CVfZtbY6zC2Dk6qPxpS8b'}"
+            },
+            "token_usage": {
+                "scene_prompt": {
+                    "input": 0,
+                    "output": 0
+                },
+                "intent_prompt": {
+                    "input": 0,
+                    "output": 0
+                },
+                "waypoint_prompt": {
+                    "input": 0,
+                    "output": 0
+                }
+            },
+            "time_usage": {
+                "scene_prompt": 0.8104519844055176,
+                "intent_prompt": 0.9155888557434082,
+                "waypoint_prompt": 1.7504265308380127
+            }
+        },
+        {
+            "frame_index": 10,
+            "sample_token": "8e9c2cba0ee74056aa3746e8391d54a9",
+            "image_name": "n008-2018-08-01-15-16-36-0400__CAM_FRONT__1533151611862404.jpg",
+            "timestamp": 1533151611862404,
+            "camera_params": {
+                "rotation": [
+                    0.5077241387638071,
+                    -0.4973392230703816,
+                    0.49837167536166627,
+                    -0.4964832014373754
+                ],
+                "translation": [
+                    1.72200568478,
+                    0.00475453292289,
+                    1.49491291905
+                ],
+                "camera_intrinsic": [
+                    [
+                        1252.8131021185304,
+                        0.0,
+                        826.588114781398
+                    ],
+                    [
+                        0.0,
+                        1252.8131021185304,
+                        469.9846626224581
+                    ],
+                    [
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ]
+            },
+            "ego_info": {
+                "position": [
+                    646.0306095061912,
+                    1612.871966606263
+                ],
+                "heading": -0.6937006976564672,
+                "obs_positions": [
+                    [
+                        -14.612316804852146,
+                        0.13463952100989385
+                    ],
+                    [
+                        -10.673673560320642,
+                        0.10182055845984195
+                    ],
+                    [
+                        -7.358260272991878,
+                        0.07545992840525528
+                    ],
+                    [
+                        -5.2264247335522125,
+                        0.05295892831532001
+                    ],
+                    [
+                        -3.154707301781917,
+                        0.03561281705771502
+                    ],
+                    [
+                        -1.6908403828064866,
+                        0.021519529438370655
+                    ],
+                    [
+                        -0.7506583447640457,
+                        0.010830599357217918
+                    ],
+                    [
+                        0.0,
+                        0.0
+                    ]
+                ],
+                "obs_actions": [
+                    [
+                        6.631,
+                        0.0
+                    ],
+                    [
+                        5.33,
+                        -0.001
+                    ],
+                    [
+                        4.144,
+                        0.001
+                    ],
+                    [
+                        2.928,
+                        -0.001
+                    ],
+                    [
+                        1.88,
+                        -0.001
+                    ],
+                    [
+                        1.668,
+                        -0.004
+                    ]
+                ],
+                "gt_positions": [
+                    [
+                        0.8394159587112948,
+                        -0.013575099058624307
+                    ],
+                    [
+                        1.7549752550656343,
+                        -0.028811162499458143
+                    ],
+                    [
+                        2.7839365145500716,
+                        -0.04551019431940251
+                    ],
+                    [
+                        4.1466285224612465,
+                        -0.05861106834451002
+                    ],
+                    [
+                        5.529333056226652,
+                        -0.07127704452933603
+                    ],
+                    [
+                        7.184329028832761,
+                        -0.08661616580351339
+                    ]
+                ]
+            },
+            "inference": {
+                "scene_prompt": [
+                    "Describe ONLY what is visible in one short paragraph (vehicles, people, lanes,",
+                    "lights/signs, road, hazards). No actions."
+                ],
+                "scene_description": [
+                    "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type':",
+                    "'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZtiuNJYtsKWvaATkC6'}"
+                ],
+                "intent_prompt": [
+                    "Scene: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZtiuNJYtsKWvaATkC6'}",
+                    "Past speeds (0.5s): [6.631, 5.33, 4.144, 2.928, 1.88, 1.668]",
+                    "Past curvatures (0.5s): [0.0, -0.001, 0.001, -0.001, -0.001, -0.004]",
+                    "What was the ego's prior intent (acc/dec/maint + amount; left/right/follow +",
+                    "amount)? And what should it do for the next 3s? One paragraph."
+                ],
+                "driving_intent": [
+                    "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type':",
+                    "'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZtnVuhy8ugsZMS4tPn'}"
+                ],
+                "waypoint_prompt": [
+                    "Scene: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZtiuNJYtsKWvaATkC6'}",
+                    "Intent: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZtnVuhy8ugsZMS4tPn'}",
+                    "Past speeds: [6.631, 5.33, 4.144, 2.928, 1.88, 1.668]",
+                    "Past curvatures: [0.0, -0.001, 0.001, -0.001, -0.001, -0.004]",
+                    "Return EXACTLY 6 (speed, curvature) tuples at 0.5s for 3s. Return ONLY a Python",
+                    "list like: [(v1,c1),(v2,c2),(v3,c3),(v4,c4),(v5,c5),(v6,c6)]"
+                ],
+                "pred_actions_str": "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'}, 'request_id': 'req_011CVfZtrfSatz59XrYYismL'}"
+            },
+            "token_usage": {
+                "scene_prompt": {
+                    "input": 0,
+                    "output": 0
+                },
+                "intent_prompt": {
+                    "input": 0,
+                    "output": 0
+                },
+                "waypoint_prompt": {
+                    "input": 0,
+                    "output": 0
+                }
+            },
+            "time_usage": {
+                "scene_prompt": 1.7010033130645752,
+                "intent_prompt": 0.8635210990905762,
+                "waypoint_prompt": 0.9392385482788086
+            }
+        },
+        {
+            "frame_index": 11,
+            "sample_token": "fdc39b23ab4242eda6ec5e1e6574fe33",
+            "image_name": "n008-2018-08-01-15-16-36-0400__CAM_FRONT__1533151612362404.jpg",
+            "timestamp": 1533151612362404,
+            "camera_params": {
+                "rotation": [
+                    0.5077241387638071,
+                    -0.4973392230703816,
+                    0.49837167536166627,
+                    -0.4964832014373754
+                ],
+                "translation": [
+                    1.72200568478,
+                    0.00475453292289,
+                    1.49491291905
+                ],
+                "camera_intrinsic": [
+                    [
+                        1252.8131021185304,
+                        0.0,
+                        826.588114781398
+                    ],
+                    [
+                        0.0,
+                        1252.8131021185304,
+                        469.9846626224581
+                    ],
+                    [
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ]
+            },
+            "ego_info": {
+                "position": [
+                    646.6673441944947,
+                    1612.324817292305
+                ],
+                "heading": -0.695692980597078,
+                "obs_positions": [
+                    [
+                        -11.513296570859836,
+                        0.09245811183610275
+                    ],
+                    [
+                        -8.197837345484889,
+                        0.07270277106053236
+                    ],
+                    [
+                        -6.065961208546408,
+                        0.054449032393713015
+                    ],
+                    [
+                        -3.99421332995749,
+                        0.04123040012775814
+                    ],
+                    [
+                        -2.5303212383671028,
+                        0.030053575638565144
+                    ],
+                    [
+                        -1.590119770846268,
+                        0.021237774166949608
+                    ],
+                    [
+                        -0.8394413382309593,
+                        0.011902719129249006
+                    ],
+                    [
+                        0.0,
+                        0.0
+                    ]
+                ],
+                "obs_actions": [
+                    [
+                        5.33,
+                        -0.001
+                    ],
+                    [
+                        4.144,
+                        0.001
+                    ],
+                    [
+                        2.928,
+                        -0.001
+                    ],
+                    [
+                        1.88,
+                        -0.001
+                    ],
+                    [
+                        1.668,
+                        -0.004
+                    ],
+                    [
+                        1.679,
+                        -0.002
+                    ]
+                ],
+                "gt_positions": [
+                    [
+                        0.9155878338691312,
+                        -0.013411981242843263
+                    ],
+                    [
+                        1.9445803204564072,
+                        -0.02806099931428052
+                    ],
+                    [
+                        3.3072957246063956,
+                        -0.03844698109476252
+                    ],
+                    [
+                        4.690022748454881,
+                        -0.048358195310576946
+                    ],
+                    [
+                        6.3450459964136785,
+                        -0.060400068081023495
+                    ],
+                    [
+                        8.213064684991256,
+                        -0.0796122710626257
+                    ]
+                ]
+            },
+            "inference": {
+                "scene_prompt": [
+                    "Describe ONLY what is visible in one short paragraph (vehicles, people, lanes,",
+                    "lights/signs, road, hazards). No actions."
+                ],
+                "scene_description": [
+                    "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type':",
+                    "'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZtunTskbV8vQdr18HJ'}"
+                ],
+                "intent_prompt": [
+                    "Scene: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZtunTskbV8vQdr18HJ'}",
+                    "Past speeds (0.5s): [5.33, 4.144, 2.928, 1.88, 1.668, 1.679]",
+                    "Past curvatures (0.5s): [-0.001, 0.001, -0.001, -0.001, -0.004, -0.002]",
+                    "What was the ego's prior intent (acc/dec/maint + amount; left/right/follow +",
+                    "amount)? And what should it do for the next 3s? One paragraph."
+                ],
+                "driving_intent": [
+                    "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type':",
+                    "'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZtzagomiF8FR8ayFot'}"
+                ],
+                "waypoint_prompt": [
+                    "Scene: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZtunTskbV8vQdr18HJ'}",
+                    "Intent: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZtzagomiF8FR8ayFot'}",
+                    "Past speeds: [5.33, 4.144, 2.928, 1.88, 1.668, 1.679]",
+                    "Past curvatures: [-0.001, 0.001, -0.001, -0.001, -0.004, -0.002]",
+                    "Return EXACTLY 6 (speed, curvature) tuples at 0.5s for 3s. Return ONLY a Python",
+                    "list like: [(v1,c1),(v2,c2),(v3,c3),(v4,c4),(v5,c5),(v6,c6)]"
+                ],
+                "pred_actions_str": "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'}, 'request_id': 'req_011CVfZu4d2byAjbTH9KfWs3'}"
+            },
+            "token_usage": {
+                "scene_prompt": {
+                    "input": 0,
+                    "output": 0
+                },
+                "intent_prompt": {
+                    "input": 0,
+                    "output": 0
+                },
+                "waypoint_prompt": {
+                    "input": 0,
+                    "output": 0
+                }
+            },
+            "time_usage": {
+                "scene_prompt": 1.0063121318817139,
+                "intent_prompt": 1.0171663761138916,
+                "waypoint_prompt": 0.8247332572937012
+            }
+        },
+        {
+            "frame_index": 12,
+            "sample_token": "9ee4020153674b9e9943d395ff8cfdf3",
+            "image_name": "n008-2018-08-01-15-16-36-0400__CAM_FRONT__1533151612862404.jpg",
+            "timestamp": 1533151612862404,
+            "camera_params": {
+                "rotation": [
+                    0.5077241387638071,
+                    -0.4973392230703816,
+                    0.49837167536166627,
+                    -0.4964832014373754
+                ],
+                "translation": [
+                    1.72200568478,
+                    0.00475453292289,
+                    1.49491291905
+                ],
+                "camera_intrinsic": [
+                    [
+                        1252.8131021185304,
+                        0.0,
+                        826.588114781398
+                    ],
+                    [
+                        0.0,
+                        1252.8131021185304,
+                        469.9846626224581
+                    ],
+                    [
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ]
+            },
+            "ego_info": {
+                "position": [
+                    647.3615623621754,
+                    1611.7277058299865
+                ],
+                "heading": -0.6978105564241218,
+                "obs_positions": [
+                    [
+                        -9.113587100863501,
+                        0.06681620479003758
+                    ],
+                    [
+                        -6.981677090078449,
+                        0.05307691304921569
+                    ],
+                    [
+                        -4.9099058650432585,
+                        0.044245390368988335
+                    ],
+                    [
+                        -3.4459933878352786,
+                        0.03616849112876497
+                    ],
+                    [
+                        -2.5057753601910893,
+                        0.029343655834959792
+                    ],
+                    [
+                        -1.7550788429718909,
+                        0.021598239041820455
+                    ],
+                    [
+                        -0.9156141819297066,
+                        0.011473125956792285
+                    ],
+                    [
+                        0.0,
+                        0.0
+                    ]
+                ],
+                "obs_actions": [
+                    [
+                        4.144,
+                        0.001
+                    ],
+                    [
+                        2.928,
+                        -0.001
+                    ],
+                    [
+                        1.88,
+                        -0.001
+                    ],
+                    [
+                        1.668,
+                        -0.004
+                    ],
+                    [
+                        1.679,
+                        -0.002
+                    ],
+                    [
+                        1.831,
+                        -0.001
+                    ]
+                ],
+                "gt_positions": [
+                    [
+                        1.0290211999048196,
+                        -0.012470017240073683
+                    ],
+                    [
+                        2.3917555418487417,
+                        -0.01997032469216875
+                    ],
+                    [
+                        3.7745004532682858,
+                        -0.02695348955359167
+                    ],
+                    [
+                        5.429545490120569,
+                        -0.035490700721535706
+                    ],
+                    [
+                        7.297600673749049,
+                        -0.05074719236506198
+                    ],
+                    [
+                        9.384107406032644,
+                        -0.06466704675422363
+                    ]
+                ]
+            },
+            "inference": {
+                "scene_prompt": [
+                    "Describe ONLY what is visible in one short paragraph (vehicles, people, lanes,",
+                    "lights/signs, road, hazards). No actions."
+                ],
+                "scene_description": [
+                    "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type':",
+                    "'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZu7yC8movm9i6jhTBK'}"
+                ],
+                "intent_prompt": [
+                    "Scene: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZu7yC8movm9i6jhTBK'}",
+                    "Past speeds (0.5s): [4.144, 2.928, 1.88, 1.668, 1.679, 1.831]",
+                    "Past curvatures (0.5s): [0.001, -0.001, -0.001, -0.004, -0.002, -0.001]",
+                    "What was the ego's prior intent (acc/dec/maint + amount; left/right/follow +",
+                    "amount)? And what should it do for the next 3s? One paragraph."
+                ],
+                "driving_intent": [
+                    "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type':",
+                    "'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZuBdxCNC7SgHJF2CW3'}"
+                ],
+                "waypoint_prompt": [
+                    "Scene: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZu7yC8movm9i6jhTBK'}",
+                    "Intent: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZuBdxCNC7SgHJF2CW3'}",
+                    "Past speeds: [4.144, 2.928, 1.88, 1.668, 1.679, 1.831]",
+                    "Past curvatures: [0.001, -0.001, -0.001, -0.004, -0.002, -0.001]",
+                    "Return EXACTLY 6 (speed, curvature) tuples at 0.5s for 3s. Return ONLY a Python",
+                    "list like: [(v1,c1),(v2,c2),(v3,c3),(v4,c4),(v5,c5),(v6,c6)]"
+                ],
+                "pred_actions_str": "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'}, 'request_id': 'req_011CVfZuFAXZVXfcqcAKpZJj'}"
+            },
+            "token_usage": {
+                "scene_prompt": {
+                    "input": 0,
+                    "output": 0
+                },
+                "intent_prompt": {
+                    "input": 0,
+                    "output": 0
+                },
+                "waypoint_prompt": {
+                    "input": 0,
+                    "output": 0
+                }
+            },
+            "time_usage": {
+                "scene_prompt": 0.8101015090942383,
+                "intent_prompt": 0.774118185043335,
+                "waypoint_prompt": 0.8411962985992432
+            }
+        },
+        {
+            "frame_index": 13,
+            "sample_token": "5b03af7a953245b5a3b23191ed4da62a",
+            "image_name": "n008-2018-08-01-15-16-36-0400__CAM_FRONT__1533151613362404.jpg",
+            "timestamp": 1533151613362404,
+            "camera_params": {
+                "rotation": [
+                    0.5077241387638071,
+                    -0.4973392230703816,
+                    0.49837167536166627,
+                    -0.4964832014373754
+                ],
+                "translation": [
+                    1.72200568478,
+                    0.00475453292289,
+                    1.49491291905
+                ],
+                "camera_intrinsic": [
+                    [
+                        1252.8131021185304,
+                        0.0,
+                        826.588114781398
+                    ],
+                    [
+                        0.0,
+                        1252.8131021185304,
+                        469.9846626224581
+                    ],
+                    [
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ]
+            },
+            "ego_info": {
+                "position": [
+                    648.1420382075617,
+                    1611.0569617760045
+                ],
+                "heading": -0.6957802557756467,
+                "obs_positions": [
+                    [
+                        -8.010548699572583,
+                        0.08181090995226725
+                    ],
+                    [
+                        -5.938799675215382,
+                        0.06877308990247855
+                    ],
+                    [
+                        -4.474906613740844,
+                        0.05772402689938927
+                    ],
+                    [
+                        -3.5347043804000995,
+                        0.04899028171221276
+                    ],
+                    [
+                        -2.7840251359251393,
+                        0.039720742304235834
+                    ],
+                    [
+                        -1.944582762079238,
+                        0.027891285612917094
+                    ],
+                    [
+                        -1.0289937611640467,
+                        0.014559212512748054
+                    ],
+                    [
+                        0.0,
+                        0.0
+                    ]
+                ],
+                "obs_actions": [
+                    [
+                        2.928,
+                        -0.001
+                    ],
+                    [
+                        1.88,
+                        -0.001
+                    ],
+                    [
+                        1.668,
+                        -0.004
+                    ],
+                    [
+                        1.679,
+                        -0.002
+                    ],
+                    [
+                        1.831,
+                        -0.001
+                    ],
+                    [
+                        2.058,
+                        0.0
+                    ]
+                ],
+                "gt_positions": [
+                    [
+                        1.3627163053985298,
+                        -0.010267050510842424
+                    ],
+                    [
+                        2.745444188983919,
+                        -0.02005758694114501
+                    ],
+                    [
+                        4.4004684815961905,
+                        -0.031955017216412696
+                    ],
+                    [
+                        6.268488839807903,
+                        -0.05100418846043775
+                    ],
+                    [
+                        8.35496301020668,
+                        -0.06916024722117342
+                    ],
+                    [
+                        10.70020600168573,
+                        -0.0918412592494402
+                    ]
+                ]
+            },
+            "inference": {
+                "scene_prompt": [
+                    "Describe ONLY what is visible in one short paragraph (vehicles, people, lanes,",
+                    "lights/signs, road, hazards). No actions."
+                ],
+                "scene_description": [
+                    "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type':",
+                    "'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZuJxjDyty5juZhhxKW'}"
+                ],
+                "intent_prompt": [
+                    "Scene: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZuJxjDyty5juZhhxKW'}",
+                    "Past speeds (0.5s): [2.928, 1.88, 1.668, 1.679, 1.831, 2.058]",
+                    "Past curvatures (0.5s): [-0.001, -0.001, -0.004, -0.002, -0.001, 0.0]",
+                    "What was the ego's prior intent (acc/dec/maint + amount; left/right/follow +",
+                    "amount)? And what should it do for the next 3s? One paragraph."
+                ],
+                "driving_intent": [
+                    "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type':",
+                    "'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZuNBhhuEkhZKzGGBag'}"
+                ],
+                "waypoint_prompt": [
+                    "Scene: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZuJxjDyty5juZhhxKW'}",
+                    "Intent: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZuNBhhuEkhZKzGGBag'}",
+                    "Past speeds: [2.928, 1.88, 1.668, 1.679, 1.831, 2.058]",
+                    "Past curvatures: [-0.001, -0.001, -0.004, -0.002, -0.001, 0.0]",
+                    "Return EXACTLY 6 (speed, curvature) tuples at 0.5s for 3s. Return ONLY a Python",
+                    "list like: [(v1,c1),(v2,c2),(v3,c3),(v4,c4),(v5,c5),(v6,c6)]"
+                ],
+                "pred_actions_str": "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'}, 'request_id': 'req_011CVfZuS1e8qzx6WAS1gfmZ'}"
+            },
+            "token_usage": {
+                "scene_prompt": {
+                    "input": 0,
+                    "output": 0
+                },
+                "intent_prompt": {
+                    "input": 0,
+                    "output": 0
+                },
+                "waypoint_prompt": {
+                    "input": 0,
+                    "output": 0
+                }
+            },
+            "time_usage": {
+                "scene_prompt": 0.8878657817840576,
+                "intent_prompt": 0.782238245010376,
+                "waypoint_prompt": 0.9181180000305176
+            }
+        },
+        {
+            "frame_index": 14,
+            "sample_token": "d0ecf474e0e64950aa265cd44b9c9d75",
+            "image_name": "n008-2018-08-01-15-16-36-0400__CAM_FRONT__1533151613912404.jpg",
+            "timestamp": 1533151613912404,
+            "camera_params": {
+                "rotation": [
+                    0.5077241387638071,
+                    -0.4973392230703816,
+                    0.49837167536166627,
+                    -0.4964832014373754
+                ],
+                "translation": [
+                    1.72200568478,
+                    0.00475453292289,
+                    1.49491291905
+                ],
+                "camera_intrinsic": [
+                    [
+                        1252.8131021185304,
+                        0.0,
+                        826.588114781398
+                    ],
+                    [
+                        0.0,
+                        1252.8131021185304,
+                        469.9846626224581
+                    ],
+                    [
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ]
+            },
+            "ego_info": {
+                "position": [
+                    649.1814152705383,
+                    1610.1756012015044
+                ],
+                "heading": -0.6944667120914184,
+                "obs_positions": [
+                    [
+                        -7.301405858960511,
+                        0.08863092966914055
+                    ],
+                    [
+                        -5.837528573806898,
+                        0.07565898926573178
+                    ],
+                    [
+                        -4.897338623729629,
+                        0.06569025526278427
+                    ],
+                    [
+                        -4.146672202805882,
+                        0.05543467415471692
+                    ],
+                    [
+                        -3.3072460916492137,
+                        0.042502583757295875
+                    ],
+                    [
+                        -2.3916753928665537,
+                        0.02796785635502963
+                    ],
+                    [
+                        -1.362701643569903,
+                        0.012057028535085945
+                    ],
+                    [
+                        0.0,
+                        0.0
+                    ]
+                ],
+                "obs_actions": [
+                    [
+                        1.88,
+                        -0.001
+                    ],
+                    [
+                        1.668,
+                        -0.004
+                    ],
+                    [
+                        1.679,
+                        -0.002
+                    ],
+                    [
+                        1.831,
+                        -0.001
+                    ],
+                    [
+                        2.058,
+                        0.0
+                    ],
+                    [
+                        2.478,
+                        0.006
+                    ]
+                ],
+                "gt_positions": [
+                    [
+                        1.3827138304146875,
+                        -0.011606800940213824
+                    ],
+                    [
+                        3.0377210674502786,
+                        -0.025678167033239552
+                    ],
+                    [
+                        4.90571479221247,
+                        -0.047181047481505534
+                    ],
+                    [
+                        6.9921633138439,
+                        -0.06807776475974592
+                    ],
+                    [
+                        9.337374489594085,
+                        -0.09383933545470846
+                    ],
+                    [
+                        11.934360422875184,
+                        -0.1269798112953584
+                    ]
+                ]
+            },
+            "inference": {
+                "scene_prompt": [
+                    "Describe ONLY what is visible in one short paragraph (vehicles, people, lanes,",
+                    "lights/signs, road, hazards). No actions."
+                ],
+                "scene_description": [
+                    "Error generating response: Connection error."
+                ],
+                "intent_prompt": [
+                    "Scene: Error generating response: Connection error.",
+                    "Past speeds (0.5s): [1.88, 1.668, 1.679, 1.831, 2.058, 2.478]",
+                    "Past curvatures (0.5s): [-0.001, -0.004, -0.002, -0.001, 0.0, 0.006]",
+                    "What was the ego's prior intent (acc/dec/maint + amount; left/right/follow +",
+                    "amount)? And what should it do for the next 3s? One paragraph."
+                ],
+                "driving_intent": [
+                    "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type':",
+                    "'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZuiCUbipgvhCPVa3az'}"
+                ],
+                "waypoint_prompt": [
+                    "Scene: Error generating response: Connection error.",
+                    "Intent: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZuiCUbipgvhCPVa3az'}",
+                    "Past speeds: [1.88, 1.668, 1.679, 1.831, 2.058, 2.478]",
+                    "Past curvatures: [-0.001, -0.004, -0.002, -0.001, 0.0, 0.006]",
+                    "Return EXACTLY 6 (speed, curvature) tuples at 0.5s for 3s. Return ONLY a Python",
+                    "list like: [(v1,c1),(v2,c2),(v3,c3),(v4,c4),(v5,c5),(v6,c6)]"
+                ],
+                "pred_actions_str": "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'}, 'request_id': 'req_011CVfZuqF95uUBSsgK8xUgx'}"
+            },
+            "token_usage": {
+                "scene_prompt": {
+                    "input": 0,
+                    "output": 0
+                },
+                "intent_prompt": {
+                    "input": 0,
+                    "output": 0
+                },
+                "waypoint_prompt": {
+                    "input": 0,
+                    "output": 0
+                }
+            },
+            "time_usage": {
+                "scene_prompt": 2.3175947666168213,
+                "intent_prompt": 1.4710910320281982,
+                "waypoint_prompt": 1.6359655857086182
+            }
+        },
+        {
+            "frame_index": 15,
+            "sample_token": "456ec36cb4a44ca78f36fbd90c0c34fa",
+            "image_name": "n008-2018-08-01-15-16-36-0400__CAM_FRONT__1533151614412404.jpg",
+            "timestamp": 1533151614412404,
+            "camera_params": {
+                "rotation": [
+                    0.5077241387638071,
+                    -0.4973392230703816,
+                    0.49837167536166627,
+                    -0.4964832014373754
+                ],
+                "translation": [
+                    1.72200568478,
+                    0.00475453292289,
+                    1.49491291905
+                ],
+                "camera_intrinsic": [
+                    [
+                        1252.8131021185304,
+                        0.0,
+                        826.588114781398
+                    ],
+                    [
+                        0.0,
+                        1252.8131021185304,
+                        469.9846626224581
+                    ],
+                    [
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ]
+            },
+            "ego_info": {
+                "position": [
+                    650.2364577346191,
+                    1609.2817792653032
+                ],
+                "heading": -0.6941446646635808,
+                "obs_positions": [
+                    [
+                        -7.2202139260767195,
+                        0.08959104613503
+                    ],
+                    [
+                        -6.280027235160226,
+                        0.07931952689916644
+                    ],
+                    [
+                        -5.529364155947452,
+                        0.06882219613708207
+                    ],
+                    [
+                        -4.6899422530675094,
+                        0.055619771394999074
+                    ],
+                    [
+                        -3.774376282635342,
+                        0.040790187563014335
+                    ],
+                    [
+                        -2.7454077107395487,
+                        0.024547982224617293
+                    ],
+                    [
+                        -1.3827100207705958,
+                        0.012052099763140145
+                    ],
+                    [
+                        0.0,
+                        0.0
+                    ]
+                ],
+                "obs_actions": [
+                    [
+                        1.668,
+                        -0.004
+                    ],
+                    [
+                        1.679,
+                        -0.002
+                    ],
+                    [
+                        1.831,
+                        -0.001
+                    ],
+                    [
+                        2.058,
+                        0.0
+                    ],
+                    [
+                        2.478,
+                        0.006
+                    ],
+                    [
+                        2.766,
+                        0.0
+                    ]
+                ],
+                "gt_positions": [
+                    [
+                        1.6550026195642518,
+                        -0.014604356177849831
+                    ],
+                    [
+                        3.5229893225101643,
+                        -0.036708818074912886
+                    ],
+                    [
+                        5.609431006210131,
+                        -0.0582774696375985
+                    ],
+                    [
+                        7.9546337638966245,
+                        -0.08479430821046696
+                    ],
+                    [
+                        10.551608889700297,
+                        -0.11877113495803027
+                    ],
+                    [
+                        13.078725943044942,
+                        -0.15545059404529304
+                    ]
+                ]
+            },
+            "inference": {
+                "scene_prompt": [
+                    "Describe ONLY what is visible in one short paragraph (vehicles, people, lanes,",
+                    "lights/signs, road, hazards). No actions."
+                ],
+                "scene_description": [
+                    "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type':",
+                    "'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZuy8eziCudysrxgZnu'}"
+                ],
+                "intent_prompt": [
+                    "Scene: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZuy8eziCudysrxgZnu'}",
+                    "Past speeds (0.5s): [1.668, 1.679, 1.831, 2.058, 2.478, 2.766]",
+                    "Past curvatures (0.5s): [-0.004, -0.002, -0.001, 0.0, 0.006, 0.0]",
+                    "What was the ego's prior intent (acc/dec/maint + amount; left/right/follow +",
+                    "amount)? And what should it do for the next 3s? One paragraph."
+                ],
+                "driving_intent": [
+                    "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type':",
+                    "'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZv2mBctwMxGxZ6A67F'}"
+                ],
+                "waypoint_prompt": [
+                    "Scene: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZuy8eziCudysrxgZnu'}",
+                    "Intent: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZv2mBctwMxGxZ6A67F'}",
+                    "Past speeds: [1.668, 1.679, 1.831, 2.058, 2.478, 2.766]",
+                    "Past curvatures: [-0.004, -0.002, -0.001, 0.0, 0.006, 0.0]",
+                    "Return EXACTLY 6 (speed, curvature) tuples at 0.5s for 3s. Return ONLY a Python",
+                    "list like: [(v1,c1),(v2,c2),(v3,c3),(v4,c4),(v5,c5),(v6,c6)]"
+                ],
+                "pred_actions_str": "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'}, 'request_id': 'req_011CVfZv6joGtL68TBPdmbLT'}"
+            },
+            "token_usage": {
+                "scene_prompt": {
+                    "input": 0,
+                    "output": 0
+                },
+                "intent_prompt": {
+                    "input": 0,
+                    "output": 0
+                },
+                "waypoint_prompt": {
+                    "input": 0,
+                    "output": 0
+                }
+            },
+            "time_usage": {
+                "scene_prompt": 1.8506464958190918,
+                "intent_prompt": 0.820568323135376,
+                "waypoint_prompt": 0.9173202514648438
+            }
+        },
+        {
+            "frame_index": 16,
+            "sample_token": "6bfd42cf0aba4f1a94ec11fa43e2dd92",
+            "image_name": "n008-2018-08-01-15-16-36-0400__CAM_FRONT__1533151614912404.jpg",
+            "timestamp": 1533151614912404,
+            "camera_params": {
+                "rotation": [
+                    0.5077241387638071,
+                    -0.4973392230703816,
+                    0.49837167536166627,
+                    -0.4964832014373754
+                ],
+                "translation": [
+                    1.72200568478,
+                    0.00475453292289,
+                    1.49491291905
+                ],
+                "camera_intrinsic": [
+                    [
+                        1252.8131021185304,
+                        0.0,
+                        826.588114781398
+                    ],
+                    [
+                        0.0,
+                        1252.8131021185304,
+                        469.9846626224581
+                    ],
+                    [
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ]
+            },
+            "ego_info": {
+                "position": [
+                    651.4991518568117,
+                    1608.211802390897
+                ],
+                "heading": -0.6935909253295596,
+                "obs_positions": [
+                    [
+                        -7.934976628830512,
+                        0.0983178065998489
+                    ],
+                    [
+                        -7.18431947748926,
+                        0.08740480579483334
+                    ],
+                    [
+                        -6.34490501400564,
+                        0.0737375621751526
+                    ],
+                    [
+                        -5.429347395665662,
+                        0.058400995751934914
+                    ],
+                    [
+                        -4.400387975472274,
+                        0.041589012561077165
+                    ],
+                    [
+                        -3.0376974138847173,
+                        0.02833855274263608
+                    ],
+                    [
+                        -1.6549942788237568,
+                        0.01552079394032968
+                    ],
+                    [
+                        0.0,
+                        0.0
+                    ]
+                ],
+                "obs_actions": [
+                    [
+                        1.679,
+                        -0.002
+                    ],
+                    [
+                        1.831,
+                        -0.001
+                    ],
+                    [
+                        2.058,
+                        0.0
+                    ],
+                    [
+                        2.478,
+                        0.006
+                    ],
+                    [
+                        2.766,
+                        0.0
+                    ],
+                    [
+                        3.31,
+                        -0.0
+                    ]
+                ],
+                "gt_positions": [
+                    [
+                        1.867974176448723,
+                        -0.02313883616813639
+                    ],
+                    [
+                        3.9544035968586178,
+                        -0.045862829193416665
+                    ],
+                    [
+                        6.299591311577803,
+                        -0.07367829464771258
+                    ],
+                    [
+                        8.896547224925364,
+                        -0.10909316338930619
+                    ],
+                    [
+                        11.423643579970332,
+                        -0.14717198089570793
+                    ],
+                    [
+                        14.699753230213709,
+                        -0.21092349593015758
+                    ]
+                ]
+            },
+            "inference": {
+                "scene_prompt": [
+                    "Describe ONLY what is visible in one short paragraph (vehicles, people, lanes,",
+                    "lights/signs, road, hazards). No actions."
+                ],
+                "scene_description": [
+                    "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type':",
+                    "'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZvAaEaNqLdxWj5YtJp'}"
+                ],
+                "intent_prompt": [
+                    "Scene: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZvAaEaNqLdxWj5YtJp'}",
+                    "Past speeds (0.5s): [1.679, 1.831, 2.058, 2.478, 2.766, 3.31]",
+                    "Past curvatures (0.5s): [-0.002, -0.001, 0.0, 0.006, 0.0, -0.0]",
+                    "What was the ego's prior intent (acc/dec/maint + amount; left/right/follow +",
+                    "amount)? And what should it do for the next 3s? One paragraph."
+                ],
+                "driving_intent": [
+                    "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type':",
+                    "'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZvFLybhQ4Cy4dfqrGY'}"
+                ],
+                "waypoint_prompt": [
+                    "Scene: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZvAaEaNqLdxWj5YtJp'}",
+                    "Intent: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZvFLybhQ4Cy4dfqrGY'}",
+                    "Past speeds: [1.679, 1.831, 2.058, 2.478, 2.766, 3.31]",
+                    "Past curvatures: [-0.002, -0.001, 0.0, 0.006, 0.0, -0.0]",
+                    "Return EXACTLY 6 (speed, curvature) tuples at 0.5s for 3s. Return ONLY a Python",
+                    "list like: [(v1,c1),(v2,c2),(v3,c3),(v4,c4),(v5,c5),(v6,c6)]"
+                ],
+                "pred_actions_str": "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'}, 'request_id': 'req_011CVfZvPCFcaq8UdD4vWMn9'}"
+            },
+            "token_usage": {
+                "scene_prompt": {
+                    "input": 0,
+                    "output": 0
+                },
+                "intent_prompt": {
+                    "input": 0,
+                    "output": 0
+                },
+                "waypoint_prompt": {
+                    "input": 0,
+                    "output": 0
+                }
+            },
+            "time_usage": {
+                "scene_prompt": 1.1013870239257812,
+                "intent_prompt": 0.9496519565582275,
+                "waypoint_prompt": 1.8447589874267578
+            }
+        },
+        {
+            "frame_index": 17,
+            "sample_token": "0af0feb5b1394b928dd13d648de898f5",
+            "image_name": "n008-2018-08-01-15-16-36-0400__CAM_FRONT__1533151615412404.jpg",
+            "timestamp": 1533151615412404,
+            "camera_params": {
+                "rotation": [
+                    0.5077241387638071,
+                    -0.4973392230703816,
+                    0.49837167536166627,
+                    -0.4964832014373754
+                ],
+                "translation": [
+                    1.72200568478,
+                    0.00475453292289,
+                    1.49491291905
+                ],
+                "camera_intrinsic": [
+                    [
+                        1252.8131021185304,
+                        0.0,
+                        826.588114781398
+                    ],
+                    [
+                        0.0,
+                        1252.8131021185304,
+                        469.9846626224581
+                    ],
+                    [
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ]
+            },
+            "ego_info": {
+                "position": [
+                    652.9207477640366,
+                    1606.9998089890255
+                ],
+                "heading": -0.6936004197801254,
+                "obs_positions": [
+                    [
+                        -9.052294703081118,
+                        0.11045769540338402
+                    ],
+                    [
+                        -8.212880109872364,
+                        0.09679842156344742
+                    ],
+                    [
+                        -7.297322345961381,
+                        0.08147054785746777
+                    ],
+                    [
+                        -6.268362766193827,
+                        0.06466833407171713
+                    ],
+                    [
+                        -4.905672078861855,
+                        0.051430812252046376
+                    ],
+                    [
+                        -3.5229688221656383,
+                        0.03862618145688068
+                    ],
+                    [
+                        -1.867974396055065,
+                        0.023121100778617176
+                    ],
+                    [
+                        0.0,
+                        0.0
+                    ]
+                ],
+                "obs_actions": [
+                    [
+                        1.831,
+                        -0.001
+                    ],
+                    [
+                        2.058,
+                        0.0
+                    ],
+                    [
+                        2.478,
+                        0.006
+                    ],
+                    [
+                        2.766,
+                        0.0
+                    ],
+                    [
+                        3.31,
+                        -0.0
+                    ],
+                    [
+                        3.736,
+                        -0.002
+                    ]
+                ],
+                "gt_positions": [
+                    [
+                        2.0864296360676837,
+                        -0.02270418352326531
+                    ],
+                    [
+                        4.431617614773728,
+                        -0.05049738270748305
+                    ],
+                    [
+                        7.028573864248957,
+                        -0.08588759477793984
+                    ],
+                    [
+                        9.555670580717473,
+                        -0.12394241889120661
+                    ],
+                    [
+                        12.831780836098797,
+                        -0.18766282906166243
+                    ],
+                    [
+                        16.019835680733806,
+                        -0.2711557528362549
+                    ]
+                ]
+            },
+            "inference": {
+                "scene_prompt": [
+                    "Describe ONLY what is visible in one short paragraph (vehicles, people, lanes,",
+                    "lights/signs, road, hazards). No actions."
+                ],
+                "scene_description": [
+                    "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type':",
+                    "'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZvSxDwvjJM6ZfT5mAW'}"
+                ],
+                "intent_prompt": [
+                    "Scene: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZvSxDwvjJM6ZfT5mAW'}",
+                    "Past speeds (0.5s): [1.831, 2.058, 2.478, 2.766, 3.31, 3.736]",
+                    "Past curvatures (0.5s): [-0.001, 0.0, 0.006, 0.0, -0.0, -0.002]",
+                    "What was the ego's prior intent (acc/dec/maint + amount; left/right/follow +",
+                    "amount)? And what should it do for the next 3s? One paragraph."
+                ],
+                "driving_intent": [
+                    "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type':",
+                    "'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZvWHQ64SCDxkiTfDA1'}"
+                ],
+                "waypoint_prompt": [
+                    "Scene: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZvSxDwvjJM6ZfT5mAW'}",
+                    "Intent: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZvWHQ64SCDxkiTfDA1'}",
+                    "Past speeds: [1.831, 2.058, 2.478, 2.766, 3.31, 3.736]",
+                    "Past curvatures: [-0.001, 0.0, 0.006, 0.0, -0.0, -0.002]",
+                    "Return EXACTLY 6 (speed, curvature) tuples at 0.5s for 3s. Return ONLY a Python",
+                    "list like: [(v1,c1),(v2,c2),(v3,c3),(v4,c4),(v5,c5),(v6,c6)]"
+                ],
+                "pred_actions_str": "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'}, 'request_id': 'req_011CVfZvaAZDoQdbj7mBazr4'}"
+            },
+            "token_usage": {
+                "scene_prompt": {
+                    "input": 0,
+                    "output": 0
+                },
+                "intent_prompt": {
+                    "input": 0,
+                    "output": 0
+                },
+                "waypoint_prompt": {
+                    "input": 0,
+                    "output": 0
+                }
+            },
+            "time_usage": {
+                "scene_prompt": 0.8170380592346191,
+                "intent_prompt": 0.8223309516906738,
+                "waypoint_prompt": 0.907691478729248
+            }
+        },
+        {
+            "frame_index": 18,
+            "sample_token": "61d9340c5ad8418dafe7a4af1b96e6b9",
+            "image_name": "n008-2018-08-01-15-16-36-0400__CAM_FRONT__1533151615912404.jpg",
+            "timestamp": 1533151615912404,
+            "camera_params": {
+                "rotation": [
+                    0.5077241387638071,
+                    -0.4973392230703816,
+                    0.49837167536166627,
+                    -0.4964832014373754
+                ],
+                "translation": [
+                    1.72200568478,
+                    0.00475453292289,
+                    1.49491291905
+                ],
+                "camera_intrinsic": [
+                    [
+                        1252.8131021185304,
+                        0.0,
+                        826.588114781398
+                    ],
+                    [
+                        0.0,
+                        1252.8131021185304,
+                        469.9846626224581
+                    ],
+                    [
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ]
+            },
+            "ego_info": {
+                "position": [
+                    654.5105911969977,
+                    1605.6484755864628
+                ],
+                "heading": -0.6946619510636425,
+                "obs_positions": [
+                    [
+                        -10.299430798788805,
+                        0.1085695003154088
+                    ],
+                    [
+                        -9.383857279710904,
+                        0.09421352827125506
+                    ],
+                    [
+                        -8.354880443611945,
+                        0.07850359653053918
+                    ],
+                    [
+                        -6.992176472012103,
+                        0.0667126206918982
+                    ],
+                    [
+                        -5.609460401850863,
+                        0.05537577959831541
+                    ],
+                    [
+                        -3.9544504490792303,
+                        0.041627535683406824
+                    ],
+                    [
+                        -2.0864525617191183,
+                        0.02048936081759334
+                    ],
+                    [
+                        0.0,
+                        0.0
+                    ]
+                ],
+                "obs_actions": [
+                    [
+                        2.058,
+                        0.0
+                    ],
+                    [
+                        2.478,
+                        0.006
+                    ],
+                    [
+                        2.766,
+                        0.0
+                    ],
+                    [
+                        3.31,
+                        -0.0
+                    ],
+                    [
+                        3.736,
+                        -0.002
+                    ],
+                    [
+                        4.173,
+                        0.001
+                    ]
+                ],
+                "gt_positions": [
+                    [
+                        2.3452161607150575,
+                        -0.025303693587276355
+                    ],
+                    [
+                        4.942208514812268,
+                        -0.05793713593502492
+                    ],
+                    [
+                        7.469344203831836,
+                        -0.09330934689008874
+                    ],
+                    [
+                        10.74552025456919,
+                        -0.1535520282877183
+                    ],
+                    [
+                        13.933661933310587,
+                        -0.23366068570480536
+                    ],
+                    [
+                        17.329015951531208,
+                        -0.3321218244456645
+                    ]
+                ]
+            },
+            "inference": {
+                "scene_prompt": [
+                    "Describe ONLY what is visible in one short paragraph (vehicles, people, lanes,",
+                    "lights/signs, road, hazards). No actions."
+                ],
+                "scene_description": [
+                    "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type':",
+                    "'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZves5haPBzsDdnFC2T'}"
+                ],
+                "intent_prompt": [
+                    "Scene: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZves5haPBzsDdnFC2T'}",
+                    "Past speeds (0.5s): [2.058, 2.478, 2.766, 3.31, 3.736, 4.173]",
+                    "Past curvatures (0.5s): [0.0, 0.006, 0.0, -0.0, -0.002, 0.001]",
+                    "What was the ego's prior intent (acc/dec/maint + amount; left/right/follow +",
+                    "amount)? And what should it do for the next 3s? One paragraph."
+                ],
+                "driving_intent": [
+                    "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type':",
+                    "'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZvia5PCHbfEA1uADYc'}"
+                ],
+                "waypoint_prompt": [
+                    "Scene: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZves5haPBzsDdnFC2T'}",
+                    "Intent: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZvia5PCHbfEA1uADYc'}",
+                    "Past speeds: [2.058, 2.478, 2.766, 3.31, 3.736, 4.173]",
+                    "Past curvatures: [0.0, 0.006, 0.0, -0.0, -0.002, 0.001]",
+                    "Return EXACTLY 6 (speed, curvature) tuples at 0.5s for 3s. Return ONLY a Python",
+                    "list like: [(v1,c1),(v2,c2),(v3,c3),(v4,c4),(v5,c5),(v6,c6)]"
+                ],
+                "pred_actions_str": "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'}, 'request_id': 'req_011CVfZvuXPeNH6FoWxfbuRG'}"
+            },
+            "token_usage": {
+                "scene_prompt": {
+                    "input": 0,
+                    "output": 0
+                },
+                "intent_prompt": {
+                    "input": 0,
+                    "output": 0
+                },
+                "waypoint_prompt": {
+                    "input": 0,
+                    "output": 0
+                }
+            },
+            "time_usage": {
+                "scene_prompt": 1.12485671043396,
+                "intent_prompt": 0.8254837989807129,
+                "waypoint_prompt": 2.5508413314819336
+            }
+        },
+        {
+            "frame_index": 19,
+            "sample_token": "9e7683e8586542a1b6032980c45f15ce",
+            "image_name": "n008-2018-08-01-15-16-36-0400__CAM_FRONT__1533151616412404.jpg",
+            "timestamp": 1533151616412404,
+            "camera_params": {
+                "rotation": [
+                    0.5077241387638071,
+                    -0.4973392230703816,
+                    0.49837167536166627,
+                    -0.4964832014373754
+                ],
+                "translation": [
+                    1.72200568478,
+                    0.00475453292289,
+                    1.49491291905
+                ],
+                "camera_intrinsic": [
+                    [
+                        1252.8131021185304,
+                        0.0,
+                        826.588114781398
+                    ],
+                    [
+                        0.0,
+                        1252.8131021185304,
+                        469.9846626224581
+                    ],
+                    [
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ]
+            },
+            "ego_info": {
+                "position": [
+                    656.2961531978233,
+                    1604.1278022294937
+                ],
+                "heading": -0.6971362365531878,
+                "obs_positions": [
+                    [
+                        -11.729333256656446,
+                        0.09049580940333612
+                    ],
+                    [
+                        -10.700320699483116,
+                        0.07733190560824443
+                    ],
+                    [
+                        -9.337591724967771,
+                        0.06891268108543436
+                    ],
+                    [
+                        -7.954851836806782,
+                        0.060997105512118566
+                    ],
+                    [
+                        -6.2998129330457004,
+                        0.051343866614078415
+                    ],
+                    [
+                        -4.431768461881054,
+                        0.03482771180431188
+                    ],
+                    [
+                        -2.3452715904060533,
+                        0.01950088773609049
+                    ],
+                    [
+                        0.0,
+                        0.0
+                    ]
+                ],
+                "obs_actions": [
+                    [
+                        2.478,
+                        0.006
+                    ],
+                    [
+                        2.766,
+                        0.0
+                    ],
+                    [
+                        3.31,
+                        -0.0
+                    ],
+                    [
+                        3.736,
+                        -0.002
+                    ],
+                    [
+                        4.173,
+                        0.001
+                    ],
+                    [
+                        4.691,
+                        -0.0
+                    ]
+                ],
+                "gt_positions": [
+                    [
+                        2.5970651489630034,
+                        -0.026207648513632442
+                    ],
+                    [
+                        5.124280623171112,
+                        -0.05532690240747895
+                    ],
+                    [
+                        8.40059570283376,
+                        -0.10746321280728655
+                    ],
+                    [
+                        11.588925834023481,
+                        -0.17968326036290616
+                    ],
+                    [
+                        14.98451307963849,
+                        -0.26974303110287234
+                    ],
+                    [
+                        18.52041950876257,
+                        -0.3437383894110173
+                    ]
+                ]
+            },
+            "inference": {
+                "scene_prompt": [
+                    "Describe ONLY what is visible in one short paragraph (vehicles, people, lanes,",
+                    "lights/signs, road, hazards). No actions."
+                ],
+                "scene_description": [
+                    "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type':",
+                    "'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZw21ZgxZuUe6Mo2vBk'}"
+                ],
+                "intent_prompt": [
+                    "Scene: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZw21ZgxZuUe6Mo2vBk'}",
+                    "Past speeds (0.5s): [2.478, 2.766, 3.31, 3.736, 4.173, 4.691]",
+                    "Past curvatures (0.5s): [0.006, 0.0, -0.0, -0.002, 0.001, -0.0]",
+                    "What was the ego's prior intent (acc/dec/maint + amount; left/right/follow +",
+                    "amount)? And what should it do for the next 3s? One paragraph."
+                ],
+                "driving_intent": [
+                    "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type':",
+                    "'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZw7oL1ib37y3qfzwAZ'}"
+                ],
+                "waypoint_prompt": [
+                    "Scene: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZw21ZgxZuUe6Mo2vBk'}",
+                    "Intent: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZw7oL1ib37y3qfzwAZ'}",
+                    "Past speeds: [2.478, 2.766, 3.31, 3.736, 4.173, 4.691]",
+                    "Past curvatures: [0.006, 0.0, -0.0, -0.002, 0.001, -0.0]",
+                    "Return EXACTLY 6 (speed, curvature) tuples at 0.5s for 3s. Return ONLY a Python",
+                    "list like: [(v1,c1),(v2,c2),(v3,c3),(v4,c4),(v5,c5),(v6,c6)]"
+                ],
+                "pred_actions_str": "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'}, 'request_id': 'req_011CVfZwCLvfcthkLKY9DyB5'}"
+            },
+            "token_usage": {
+                "scene_prompt": {
+                    "input": 0,
+                    "output": 0
+                },
+                "intent_prompt": {
+                    "input": 0,
+                    "output": 0
+                },
+                "waypoint_prompt": {
+                    "input": 0,
+                    "output": 0
+                }
+            },
+            "time_usage": {
+                "scene_prompt": 1.9503681659698486,
+                "intent_prompt": 0.9279911518096924,
+                "waypoint_prompt": 1.1237072944641113
+            }
+        },
+        {
+            "frame_index": 20,
+            "sample_token": "cc57c1ea80fe46a7abddfdb15654c872",
+            "image_name": "n008-2018-08-01-15-16-36-0400__CAM_FRONT__1533151616912404.jpg",
+            "timestamp": 1533151616912404,
+            "camera_params": {
+                "rotation": [
+                    0.5077241387638071,
+                    -0.4973392230703816,
+                    0.49837167536166627,
+                    -0.4964832014373754
+                ],
+                "translation": [
+                    1.72200568478,
+                    0.00475453292289,
+                    1.49491291905
+                ],
+                "camera_intrinsic": [
+                    [
+                        1252.8131021185304,
+                        0.0,
+                        826.588114781398
+                    ],
+                    [
+                        0.0,
+                        1252.8131021185304,
+                        469.9846626224581
+                    ],
+                    [
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ]
+            },
+            "ego_info": {
+                "position": [
+                    658.2704553688468,
+                    1602.4403292174752
+                ],
+                "heading": -0.7007051240144695,
+                "obs_positions": [
+                    [
+                        -13.297670684647418,
+                        0.05608212185340644
+                    ],
+                    [
+                        -11.934920341432472,
+                        0.05252636697426283
+                    ],
+                    [
+                        -10.552161009473433,
+                        0.04954567438433344
+                    ],
+                    [
+                        -8.8970981945313,
+                        0.04579913201546404
+                    ],
+                    [
+                        -7.029006675783061,
+                        0.03594990872608905
+                    ],
+                    [
+                        -4.942468392511044,
+                        0.028069638981371714
+                    ],
+                    [
+                        -2.597142141575688,
+                        0.016938868040374144
+                    ],
+                    [
+                        0.0,
+                        0.0
+                    ]
+                ],
+                "obs_actions": [
+                    [
+                        2.766,
+                        0.0
+                    ],
+                    [
+                        3.31,
+                        -0.0
+                    ],
+                    [
+                        3.736,
+                        -0.002
+                    ],
+                    [
+                        4.173,
+                        0.001
+                    ],
+                    [
+                        4.691,
+                        -0.0
+                    ],
+                    [
+                        5.194,
+                        -0.001
+                    ]
+                ],
+                "gt_positions": [
+                    [
+                        2.527303302826373,
+                        -0.020099739977328168
+                    ],
+                    [
+                        5.803783585597332,
+                        -0.06054294336324828
+                    ],
+                    [
+                        8.992351156670605,
+                        -0.12138376371506254
+                    ],
+                    [
+                        12.388238190087247,
+                        -0.199324517892717
+                    ],
+                    [
+                        15.924386181435755,
+                        -0.26070017963278325
+                    ],
+                    [
+                        19.668549540591165,
+                        -0.350621103877911
+                    ]
+                ]
+            },
+            "inference": {
+                "scene_prompt": [
+                    "Describe ONLY what is visible in one short paragraph (vehicles, people, lanes,",
+                    "lights/signs, road, hazards). No actions."
+                ],
+                "scene_description": [
+                    "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type':",
+                    "'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZwG59tqkFVAENCjdEV'}"
+                ],
+                "intent_prompt": [
+                    "Scene: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZwG59tqkFVAENCjdEV'}",
+                    "Past speeds (0.5s): [2.766, 3.31, 3.736, 4.173, 4.691, 5.194]",
+                    "Past curvatures (0.5s): [0.0, -0.0, -0.002, 0.001, -0.0, -0.001]",
+                    "What was the ego's prior intent (acc/dec/maint + amount; left/right/follow +",
+                    "amount)? And what should it do for the next 3s? One paragraph."
+                ],
+                "driving_intent": [
+                    "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type':",
+                    "'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZwLmgbqvhKWeW3oJG9'}"
+                ],
+                "waypoint_prompt": [
+                    "Scene: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZwG59tqkFVAENCjdEV'}",
+                    "Intent: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZwLmgbqvhKWeW3oJG9'}",
+                    "Past speeds: [2.766, 3.31, 3.736, 4.173, 4.691, 5.194]",
+                    "Past curvatures: [0.0, -0.0, -0.002, 0.001, -0.0, -0.001]",
+                    "Return EXACTLY 6 (speed, curvature) tuples at 0.5s for 3s. Return ONLY a Python",
+                    "list like: [(v1,c1),(v2,c2),(v3,c3),(v4,c4),(v5,c5),(v6,c6)]"
+                ],
+                "pred_actions_str": "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'}, 'request_id': 'req_011CVfZwR4eP4bZUGTh3RBDY'}"
+            },
+            "token_usage": {
+                "scene_prompt": {
+                    "input": 0,
+                    "output": 0
+                },
+                "intent_prompt": {
+                    "input": 0,
+                    "output": 0
+                },
+                "waypoint_prompt": {
+                    "input": 0,
+                    "output": 0
+                }
+            },
+            "time_usage": {
+                "scene_prompt": 0.9223225116729736,
+                "intent_prompt": 1.0168733596801758,
+                "waypoint_prompt": 1.0296876430511475
+            }
+        },
+        {
+            "frame_index": 21,
+            "sample_token": "4cf5d6c3f6ab42aab23f67b5a9782d1a",
+            "image_name": "n008-2018-08-01-15-16-36-0400__CAM_FRONT__1533151617362404.jpg",
+            "timestamp": 1533151617362404,
+            "camera_params": {
+                "rotation": [
+                    0.5077241387638071,
+                    -0.4973392230703816,
+                    0.49837167536166627,
+                    -0.4964832014373754
+                ],
+                "translation": [
+                    1.72200568478,
+                    0.00475453292289,
+                    1.49491291905
+                ],
+                "camera_intrinsic": [
+                    [
+                        1252.8131021185304,
+                        0.0,
+                        826.588114781398
+                    ],
+                    [
+                        0.0,
+                        1252.8131021185304,
+                        469.9846626224581
+                    ],
+                    [
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ]
+            },
+            "ego_info": {
+                "position": [
+                    660.1893355936998,
+                    1600.7954691423647
+                ],
+                "heading": -0.7039849305460837,
+                "obs_positions": [
+                    [
+                        -14.462384057465151,
+                        0.02519250579854937
+                    ],
+                    [
+                        -13.079622386683504,
+                        0.026747004198142577
+                    ],
+                    [
+                        -11.42455618568495,
+                        0.028428758078832495
+                    ],
+                    [
+                        -9.55644241109123,
+                        0.024706555544166342
+                    ],
+                    [
+                        -7.469889504678015,
+                        0.02366975780460301
+                    ],
+                    [
+                        -5.1245393615122925,
+                        0.0202312492966934
+                    ],
+                    [
+                        -2.527355632712622,
+                        0.011810580850764696
+                    ],
+                    [
+                        0.0,
+                        0.0
+                    ]
+                ],
+                "obs_actions": [
+                    [
+                        3.31,
+                        -0.0
+                    ],
+                    [
+                        3.736,
+                        -0.002
+                    ],
+                    [
+                        4.173,
+                        0.001
+                    ],
+                    [
+                        4.691,
+                        -0.0
+                    ],
+                    [
+                        5.194,
+                        -0.001
+                    ],
+                    [
+                        5.616,
+                        -0.001
+                    ]
+                ],
+                "gt_positions": [
+                    [
+                        3.2765953056679438,
+                        -0.029696783693970108
+                    ],
+                    [
+                        6.465345272599464,
+                        -0.08007941081310666
+                    ],
+                    [
+                        9.861469671168157,
+                        -0.1468819132774115
+                    ],
+                    [
+                        13.397799943065685,
+                        -0.19665938441929054
+                    ],
+                    [
+                        17.142238086717406,
+                        -0.2742997155949727
+                    ],
+                    [
+                        21.02312835258008,
+                        -0.37580953033565834
+                    ]
+                ]
+            },
+            "inference": {
+                "scene_prompt": [
+                    "Describe ONLY what is visible in one short paragraph (vehicles, people, lanes,",
+                    "lights/signs, road, hazards). No actions."
+                ],
+                "scene_description": [
+                    "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type':",
+                    "'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZwYJiTnZs2QXVATTPC'}"
+                ],
+                "intent_prompt": [
+                    "Scene: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZwYJiTnZs2QXVATTPC'}",
+                    "Past speeds (0.5s): [3.31, 3.736, 4.173, 4.691, 5.194, 5.616]",
+                    "Past curvatures (0.5s): [-0.0, -0.002, 0.001, -0.0, -0.001, -0.001]",
+                    "What was the ego's prior intent (acc/dec/maint + amount; left/right/follow +",
+                    "amount)? And what should it do for the next 3s? One paragraph."
+                ],
+                "driving_intent": [
+                    "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type':",
+                    "'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZwcFr5SW5ktfkzubPs'}"
+                ],
+                "waypoint_prompt": [
+                    "Scene: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZwYJiTnZs2QXVATTPC'}",
+                    "Intent: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZwcFr5SW5ktfkzubPs'}",
+                    "Past speeds: [3.31, 3.736, 4.173, 4.691, 5.194, 5.616]",
+                    "Past curvatures: [-0.0, -0.002, 0.001, -0.0, -0.001, -0.001]",
+                    "Return EXACTLY 6 (speed, curvature) tuples at 0.5s for 3s. Return ONLY a Python",
+                    "list like: [(v1,c1),(v2,c2),(v3,c3),(v4,c4),(v5,c5),(v6,c6)]"
+                ],
+                "pred_actions_str": "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'}, 'request_id': 'req_011CVfZwfkwXxSvqcHeiXP4s'}"
+            },
+            "token_usage": {
+                "scene_prompt": {
+                    "input": 0,
+                    "output": 0
+                },
+                "intent_prompt": {
+                    "input": 0,
+                    "output": 0
+                },
+                "waypoint_prompt": {
+                    "input": 0,
+                    "output": 0
+                }
+            },
+            "time_usage": {
+                "scene_prompt": 1.6390538215637207,
+                "intent_prompt": 0.9189333915710449,
+                "waypoint_prompt": 0.9238426685333252
+            }
+        },
+        {
+            "frame_index": 22,
+            "sample_token": "6d9984d09d52479e837da2fd09e192cc",
+            "image_name": "n008-2018-08-01-15-16-36-0400__CAM_FRONT__1533151617912404.jpg",
+            "timestamp": 1533151617912404,
+            "camera_params": {
+                "rotation": [
+                    0.5077241387638071,
+                    -0.4973392230703816,
+                    0.49837167536166627,
+                    -0.4964832014373754
+                ],
+                "translation": [
+                    1.72200568478,
+                    0.00475453292289,
+                    1.49491291905
+                ],
+                "camera_intrinsic": [
+                    [
+                        1252.8131021185304,
+                        0.0,
+                        826.588114781398
+                    ],
+                    [
+                        0.0,
+                        1252.8131021185304,
+                        469.9846626224581
+                    ],
+                    [
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ]
+            },
+            "ego_info": {
+                "position": [
+                    662.6677609328817,
+                    1598.6520217942389
+                ],
+                "heading": -0.7085835509798376,
+                "obs_positions": [
+                    [
+                        -16.356304310295624,
+                        -0.018772580720421317
+                    ],
+                    [
+                        -14.701263343085657,
+                        -0.009479850196267847
+                    ],
+                    [
+                        -12.833152204311276,
+                        -0.004611297475790366
+                    ],
+                    [
+                        -10.746616592527175,
+                        0.003947146759937681
+                    ],
+                    [
+                        -8.401275435901141,
+                        0.011294011688665506
+                    ],
+                    [
+                        -5.804080445456157,
+                        0.014816852349988974
+                    ],
+                    [
+                        -3.2766972238958214,
+                        0.014628704672439596
+                    ],
+                    [
+                        0.0,
+                        0.0
+                    ]
+                ],
+                "obs_actions": [
+                    [
+                        3.736,
+                        -0.002
+                    ],
+                    [
+                        4.173,
+                        0.001
+                    ],
+                    [
+                        4.691,
+                        -0.0
+                    ],
+                    [
+                        5.194,
+                        -0.001
+                    ],
+                    [
+                        5.616,
+                        -0.001
+                    ],
+                    [
+                        5.958,
+                        -0.002
+                    ]
+                ],
+                "gt_positions": [
+                    [
+                        3.1889479400110474,
+                        -0.035718295318941884
+                    ],
+                    [
+                        6.585343627465596,
+                        -0.08690265942763409
+                    ],
+                    [
+                        10.121865414382082,
+                        -0.120417420908832
+                    ],
+                    [
+                        13.866621002861704,
+                        -0.1808377420736358
+                    ],
+                    [
+                        17.747937037065157,
+                        -0.2644998051104004
+                    ],
+                    [
+                        22.486212596022384,
+                        -0.3443911081055262
+                    ]
+                ]
+            },
+            "inference": {
+                "scene_prompt": [
+                    "Describe ONLY what is visible in one short paragraph (vehicles, people, lanes,",
+                    "lights/signs, road, hazards). No actions."
+                ],
+                "scene_description": [
+                    "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type':",
+                    "'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZwksGKwa9rMqdRNQ6v'}"
+                ],
+                "intent_prompt": [
+                    "Scene: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZwksGKwa9rMqdRNQ6v'}",
+                    "Past speeds (0.5s): [3.736, 4.173, 4.691, 5.194, 5.616, 5.958]",
+                    "Past curvatures (0.5s): [-0.002, 0.001, -0.0, -0.001, -0.001, -0.002]",
+                    "What was the ego's prior intent (acc/dec/maint + amount; left/right/follow +",
+                    "amount)? And what should it do for the next 3s? One paragraph."
+                ],
+                "driving_intent": [
+                    "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type':",
+                    "'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZwpjggmf18Wr9JD9n8'}"
+                ],
+                "waypoint_prompt": [
+                    "Scene: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZwksGKwa9rMqdRNQ6v'}",
+                    "Intent: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZwpjggmf18Wr9JD9n8'}",
+                    "Past speeds: [3.736, 4.173, 4.691, 5.194, 5.616, 5.958]",
+                    "Past curvatures: [-0.002, 0.001, -0.0, -0.001, -0.001, -0.002]",
+                    "Return EXACTLY 6 (speed, curvature) tuples at 0.5s for 3s. Return ONLY a Python",
+                    "list like: [(v1,c1),(v2,c2),(v3,c3),(v4,c4),(v5,c5),(v6,c6)]"
+                ],
+                "pred_actions_str": "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'}, 'request_id': 'req_011CVfZwt2Npmas4bJp7sY8A'}"
+            },
+            "token_usage": {
+                "scene_prompt": {
+                    "input": 0,
+                    "output": 0
+                },
+                "intent_prompt": {
+                    "input": 0,
+                    "output": 0
+                },
+                "waypoint_prompt": {
+                    "input": 0,
+                    "output": 0
+                }
+            },
+            "time_usage": {
+                "scene_prompt": 1.1244001388549805,
+                "intent_prompt": 0.9195051193237305,
+                "waypoint_prompt": 0.8207492828369141
+            }
+        },
+        {
+            "frame_index": 23,
+            "sample_token": "38a28a3aaf2647f2a8c0e90e31267bf8",
+            "image_name": "n008-2018-08-01-15-16-36-0400__CAM_FRONT__1533151618412404.jpg",
+            "timestamp": 1533151618412404,
+            "camera_params": {
+                "rotation": [
+                    0.5077241387638071,
+                    -0.4973392230703816,
+                    0.49837167536166627,
+                    -0.4964832014373754
+                ],
+                "translation": [
+                    1.72200568478,
+                    0.00475453292289,
+                    1.49491291905
+                ],
+                "camera_intrinsic": [
+                    [
+                        1252.8131021185304,
+                        0.0,
+                        826.588114781398
+                    ],
+                    [
+                        0.0,
+                        1252.8131021185304,
+                        469.9846626224581
+                    ],
+                    [
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ]
+            },
+            "ego_info": {
+                "position": [
+                    665.0658353697465,
+                    1596.5496650795073
+                ],
+                "heading": -0.7120423943742528,
+                "obs_positions": [
+                    [
+                        -17.8901950220504,
+                        -0.03564102756812204
+                    ],
+                    [
+                        -16.022111897457712,
+                        -0.024311012981732105
+                    ],
+                    [
+                        -13.935618369156703,
+                        -0.0085356344130183
+                    ],
+                    [
+                        -11.590316653480187,
+                        0.006923338160422787
+                    ],
+                    [
+                        -8.993149383847484,
+                        0.01942943057348323
+                    ],
+                    [
+                        -6.465780629797978,
+                        0.02798308935184579
+                    ],
+                    [
+                        -3.1890524081285463,
+                        0.02468803213526738
+                    ],
+                    [
+                        0.0,
+                        0.0
+                    ]
+                ],
+                "obs_actions": [
+                    [
+                        4.173,
+                        0.001
+                    ],
+                    [
+                        4.691,
+                        -0.0
+                    ],
+                    [
+                        5.194,
+                        -0.001
+                    ],
+                    [
+                        5.616,
+                        -0.001
+                    ],
+                    [
+                        5.958,
+                        -0.002
+                    ],
+                    [
+                        6.378,
+                        -0.002
+                    ]
+                ],
+                "gt_positions": [
+                    [
+                        3.3965524092658015,
+                        -0.03943648056997073
+                    ],
+                    [
+                        6.933168963521774,
+                        -0.060718790941248546
+                    ],
+                    [
+                        10.67811113566124,
+                        -0.10818625337974197
+                    ],
+                    [
+                        14.559693326033294,
+                        -0.17842297840909627
+                    ],
+                    [
+                        19.29821687256231,
+                        -0.24192488307143378
+                    ],
+                    [
+                        22.54184056874015,
+                        -0.2905519338806588
+                    ]
+                ]
+            },
+            "inference": {
+                "scene_prompt": [
+                    "Describe ONLY what is visible in one short paragraph (vehicles, people, lanes,",
+                    "lights/signs, road, hazards). No actions."
+                ],
+                "scene_description": [
+                    "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type':",
+                    "'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZwwnLypBvdD2bYYUNC'}"
+                ],
+                "intent_prompt": [
+                    "Scene: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZwwnLypBvdD2bYYUNC'}",
+                    "Past speeds (0.5s): [4.173, 4.691, 5.194, 5.616, 5.958, 6.378]",
+                    "Past curvatures (0.5s): [0.001, -0.0, -0.001, -0.001, -0.002, -0.002]",
+                    "What was the ego's prior intent (acc/dec/maint + amount; left/right/follow +",
+                    "amount)? And what should it do for the next 3s? One paragraph."
+                ],
+                "driving_intent": [
+                    "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type':",
+                    "'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZx7AuPewqyR4g4LVeZ'}"
+                ],
+                "waypoint_prompt": [
+                    "Scene: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZwwnLypBvdD2bYYUNC'}",
+                    "Intent: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZx7AuPewqyR4g4LVeZ'}",
+                    "Past speeds: [4.173, 4.691, 5.194, 5.616, 5.958, 6.378]",
+                    "Past curvatures: [0.001, -0.0, -0.001, -0.001, -0.002, -0.002]",
+                    "Return EXACTLY 6 (speed, curvature) tuples at 0.5s for 3s. Return ONLY a Python",
+                    "list like: [(v1,c1),(v2,c2),(v3,c3),(v4,c4),(v5,c5),(v6,c6)]"
+                ],
+                "pred_actions_str": "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'}, 'request_id': 'req_011CVfZxASMSDbBSNXvLQPTW'}"
+            },
+            "token_usage": {
+                "scene_prompt": {
+                    "input": 0,
+                    "output": 0
+                },
+                "intent_prompt": {
+                    "input": 0,
+                    "output": 0
+                },
+                "waypoint_prompt": {
+                    "input": 0,
+                    "output": 0
+                }
+            },
+            "time_usage": {
+                "scene_prompt": 0.8204295635223389,
+                "intent_prompt": 2.1485774517059326,
+                "waypoint_prompt": 0.8208825588226318
+            }
+        },
+        {
+            "frame_index": 24,
+            "sample_token": "6402fd1ffaf041d0b9162bd92a7ba0a2",
+            "image_name": "n008-2018-08-01-15-16-36-0400__CAM_FRONT__1533151618912404.jpg",
+            "timestamp": 1533151618912404,
+            "camera_params": {
+                "rotation": [
+                    0.5077241387638071,
+                    -0.4973392230703816,
+                    0.49837167536166627,
+                    -0.4964832014373754
+                ],
+                "translation": [
+                    1.72200568478,
+                    0.00475453292289,
+                    1.49491291905
+                ],
+                "camera_intrinsic": [
+                    [
+                        1252.8131021185304,
+                        0.0,
+                        826.588114781398
+                    ],
+                    [
+                        0.0,
+                        1252.8131021185304,
+                        469.9846626224581
+                    ],
+                    [
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ]
+            },
+            "ego_info": {
+                "position": [
+                    667.611356963459,
+                    1594.3005667444334
+                ],
+                "heading": -0.7139763282510523,
+                "obs_positions": [
+                    [
+                        -19.418657244495257,
+                        -0.022428950032566064
+                    ],
+                    [
+                        -17.332198126560517,
+                        -0.002618462961791579
+                    ],
+                    [
+                        -14.986930693326514,
+                        0.01737613631456547
+                    ],
+                    [
+                        -12.389792466465968,
+                        0.03490495197614063
+                    ],
+                    [
+                        -9.862444980921401,
+                        0.048346355764571136
+                    ],
+                    [
+                        -6.585716514477259,
+                        0.0513882764727116
+                    ],
+                    [
+                        -3.396622325042755,
+                        0.03286770314779752
+                    ],
+                    [
+                        0.0,
+                        0.0
+                    ]
+                ],
+                "obs_actions": [
+                    [
+                        4.691,
+                        -0.0
+                    ],
+                    [
+                        5.194,
+                        -0.001
+                    ],
+                    [
+                        5.616,
+                        -0.001
+                    ],
+                    [
+                        5.958,
+                        -0.002
+                    ],
+                    [
+                        6.378,
+                        -0.002
+                    ],
+                    [
+                        6.794,
+                        -0.001
+                    ]
+                ],
+                "gt_positions": [
+                    [
+                        3.53665109916317,
+                        -0.014442692272231161
+                    ],
+                    [
+                        7.281678066951694,
+                        -0.05466759992545578
+                    ],
+                    [
+                        11.163388831670028,
+                        -0.11739747499442732
+                    ],
+                    [
+                        15.902026325333395,
+                        -0.17173527540478606
+                    ],
+                    [
+                        19.145737997216507,
+                        -0.2140892854396359
+                    ],
+                    [
+                        23.229860917671115,
+                        -0.23245091619359037
+                    ]
+                ]
+            },
+            "inference": {
+                "scene_prompt": [
+                    "Describe ONLY what is visible in one short paragraph (vehicles, people, lanes,",
+                    "lights/signs, road, hazards). No actions."
+                ],
+                "scene_description": [
+                    "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type':",
+                    "'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZxENjzEYdXGLKvojYk'}"
+                ],
+                "intent_prompt": [
+                    "Scene: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZxENjzEYdXGLKvojYk'}",
+                    "Past speeds (0.5s): [4.691, 5.194, 5.616, 5.958, 6.378, 6.794]",
+                    "Past curvatures (0.5s): [-0.0, -0.001, -0.001, -0.002, -0.002, -0.001]",
+                    "What was the ego's prior intent (acc/dec/maint + amount; left/right/follow +",
+                    "amount)? And what should it do for the next 3s? One paragraph."
+                ],
+                "driving_intent": [
+                    "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type':",
+                    "'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZxHQoPx2vvyJrz3Bm1'}"
+                ],
+                "waypoint_prompt": [
+                    "Scene: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZxENjzEYdXGLKvojYk'}",
+                    "Intent: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZxHQoPx2vvyJrz3Bm1'}",
+                    "Past speeds: [4.691, 5.194, 5.616, 5.958, 6.378, 6.794]",
+                    "Past curvatures: [-0.0, -0.001, -0.001, -0.002, -0.002, -0.001]",
+                    "Return EXACTLY 6 (speed, curvature) tuples at 0.5s for 3s. Return ONLY a Python",
+                    "list like: [(v1,c1),(v2,c2),(v3,c3),(v4,c4),(v5,c5),(v6,c6)]"
+                ],
+                "pred_actions_str": "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'}, 'request_id': 'req_011CVfZxLdXJ3sy4K36TBZMG'}"
+            },
+            "token_usage": {
+                "scene_prompt": {
+                    "input": 0,
+                    "output": 0
+                },
+                "intent_prompt": {
+                    "input": 0,
+                    "output": 0
+                },
+                "waypoint_prompt": {
+                    "input": 0,
+                    "output": 0
+                }
+            },
+            "time_usage": {
+                "scene_prompt": 0.8810458183288574,
+                "intent_prompt": 0.660815954208374,
+                "waypoint_prompt": 0.8100330829620361
+            }
+        },
+        {
+            "frame_index": 25,
+            "sample_token": "ce94ef7a0522468e81c0e2b3a2f1e12d",
+            "image_name": "n008-2018-08-01-15-16-36-0400__CAM_FRONT__1533151619412404.jpg",
+            "timestamp": 1533151619412404,
+            "camera_params": {
+                "rotation": [
+                    0.5077241387638071,
+                    -0.4973392230703816,
+                    0.49837167536166627,
+                    -0.4964832014373754
+                ],
+                "translation": [
+                    1.72200568478,
+                    0.00475453292289,
+                    1.49491291905
+                ],
+                "camera_intrinsic": [
+                    [
+                        1252.8131021185304,
+                        0.0,
+                        826.588114781398
+                    ],
+                    [
+                        0.0,
+                        1252.8131021185304,
+                        469.9846626224581
+                    ],
+                    [
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ]
+            },
+            "ego_info": {
+                "position": [
+                    670.2747727709332,
+                    1591.9736963515948
+                ],
+                "heading": -0.7147505811745352,
+                "obs_positions": [
+                    [
+                        -20.868852125567827,
+                        -0.004333540142075876
+                    ],
+                    [
+                        -18.52360087616509,
+                        0.017476883126331444
+                    ],
+                    [
+                        -15.926476999490017,
+                        0.037016535197859746
+                    ],
+                    [
+                        -13.399140678522006,
+                        0.052414740941279625
+                    ],
+                    [
+                        -10.122415549439836,
+                        0.05799367707878034
+                    ],
+                    [
+                        -6.93330797627798,
+                        0.04194227455784283
+                    ],
+                    [
+                        -3.5366612214049655,
+                        0.011704425763985782
+                    ],
+                    [
+                        0.0,
+                        0.0
+                    ]
+                ],
+                "obs_actions": [
+                    [
+                        5.194,
+                        -0.001
+                    ],
+                    [
+                        5.616,
+                        -0.001
+                    ],
+                    [
+                        5.958,
+                        -0.002
+                    ],
+                    [
+                        6.378,
+                        -0.002
+                    ],
+                    [
+                        6.794,
+                        -0.001
+                    ],
+                    [
+                        7.073,
+                        0.002
+                    ]
+                ],
+                "gt_positions": [
+                    [
+                        3.745056989526671,
+                        -0.03732529780783134
+                    ],
+                    [
+                        7.626815159549475,
+                        -0.09704972846711923
+                    ],
+                    [
+                        12.365493304079735,
+                        -0.1477186090243734
+                    ],
+                    [
+                        15.609236796425701,
+                        -0.18756115337032764
+                    ],
+                    [
+                        19.69337270927558,
+                        -0.20276063482558904
+                    ],
+                    [
+                        23.811293505770486,
+                        -0.2375183969816188
+                    ]
+                ]
+            },
+            "inference": {
+                "scene_prompt": [
+                    "Describe ONLY what is visible in one short paragraph (vehicles, people, lanes,",
+                    "lights/signs, road, hazards). No actions."
+                ],
+                "scene_description": [
+                    "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type':",
+                    "'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZxQ6dkbFwBdc8U24fQ'}"
+                ],
+                "intent_prompt": [
+                    "Scene: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZxQ6dkbFwBdc8U24fQ'}",
+                    "Past speeds (0.5s): [5.194, 5.616, 5.958, 6.378, 6.794, 7.073]",
+                    "Past curvatures (0.5s): [-0.001, -0.001, -0.002, -0.002, -0.001, 0.002]",
+                    "What was the ego's prior intent (acc/dec/maint + amount; left/right/follow +",
+                    "amount)? And what should it do for the next 3s? One paragraph."
+                ],
+                "driving_intent": [
+                    "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type':",
+                    "'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZxWphHmnSDn1F2MSEq'}"
+                ],
+                "waypoint_prompt": [
+                    "Scene: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZxQ6dkbFwBdc8U24fQ'}",
+                    "Intent: Error generating response: Error code: 404 - {'type': 'error', 'error':",
+                    "{'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'},",
+                    "'request_id': 'req_011CVfZxWphHmnSDn1F2MSEq'}",
+                    "Past speeds: [5.194, 5.616, 5.958, 6.378, 6.794, 7.073]",
+                    "Past curvatures: [-0.001, -0.001, -0.002, -0.002, -0.001, 0.002]",
+                    "Return EXACTLY 6 (speed, curvature) tuples at 0.5s for 3s. Return ONLY a Python",
+                    "list like: [(v1,c1),(v2,c2),(v3,c3),(v4,c4),(v5,c5),(v6,c6)]"
+                ],
+                "pred_actions_str": "Error generating response: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-sonnet-4.5-20241022'}, 'request_id': 'req_011CVfZxaj6duPG7c3ZMRqm5'}"
+            },
+            "token_usage": {
+                "scene_prompt": {
+                    "input": 0,
+                    "output": 0
+                },
+                "intent_prompt": {
+                    "input": 0,
+                    "output": 0
+                },
+                "waypoint_prompt": {
+                    "input": 0,
+                    "output": 0
+                }
+            },
+            "time_usage": {
+                "scene_prompt": 0.8198809623718262,
+                "intent_prompt": 1.6409714221954346,
+                "waypoint_prompt": 0.9202835559844971
+            }
+        }
+    ],
+    "metadata": {
+        "model": "claude-sonnet-4.5-20241022",
+        "timestamp": "20251130-232415",
+        "total_frames": 26
+    }
+}
